@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --bg-main: #1c122c; /* Мягкий графитовый фон сайта */
+  --bg-card: #2a1b3d; /* Светлый фон для карточек и Хедера */
+  --color-primary: #f07324; /* Оранжевый бренд-цвет */
+  --color-primary-hover: #d85f18;
+
+  --text-main: #f2f3f5ec; /* Комфортный белый для заголовков */
+  --text-muted: #949ba4; /* Серый для описаний */
+
+  --border-color: rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,101 @@
+.cardCasion {
+  background-color: #f2f3f5fd;
+  padding: 15px;
+  border-radius: 12px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.infoText {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.raiting {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 500;
+}
+.name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.bonus {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.imgWrap {
+  width: 40%;
+  border-radius: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.link {
+  width: 60%;
+  align-self: center;
+  text-align: center;
+  background-color: var(--color-primary);
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: solid;
+  border-radius: 25px;
+  color: #f2f3f5ec;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease,
+    transform 0.4s ease;
+  cursor: pointer;
+}
+
+/* Эффекты при наведении (Hover) */
+.link:hover {
+  background-color: #ff5e00; /* Яркий, насыщенный неоново-оранжевый цвет */
+
+  /* Запуск беспрерывного пульса (длительность одного цикла сжатия-расширения — 0.8 секунды) */
+  animation: continuous-pulse 0.8s infinite ease-in-out;
+}
+
+/* Эффект при клике (Active) */
+.link:active {
+  transform: scale(0.95);
+  animation: none; /* Отключаем пульсацию в момент клика */
+}
+
+/* Беспрерывная и плавная пульсация */
+@keyframes continuous-pulse {
+  0% {
+    /* Исходное состояние кнопки и минимальное свечение */
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(255, 94, 0, 0.5), 0 0 4px rgba(255, 94, 0, 0.3);
+  }
+  50% {
+    /* Пик расширения — кнопка увеличивается, неоновое облако вспыхивает на максимум */
+    transform: scale(1.08);
+    box-shadow: 0 0 28px rgba(255, 94, 0, 1), 0 0 14px rgba(255, 94, 0, 0.6);
+  }
+  100% {
+    /* Плавный возврат в исходное состояние и мгновенный запуск нового цикла */
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(255, 94, 0, 0.5), 0 0 4px rgba(255, 94, 0, 0.3);
+  }
+}
