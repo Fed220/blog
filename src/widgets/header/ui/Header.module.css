@@ -2,8 +2,9 @@
   position: sticky;
   z-index: 50;
   top: 0;
-  background-color: var(--bg-card);
-  border-bottom: 1px solid var(--border-color);
+  background: var(--header);
+  color: var(--header);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .headerContent {
@@ -20,12 +21,12 @@
 .logoText {
   font-weight: 700;
   font-size: 20px;
-  color: var(--text-main);
+  color: var(--text-header);
   text-decoration: solid;
 }
 
 .logoText:hover {
-  color: #d85f18;
+  color: #ff0069;
   transition: color 0.5s ease;
 }
 
@@ -39,10 +40,10 @@
 .navText {
   font-weight: 600;
   font-size: 18px;
-  color: var(--text-main);
+  color: var(--text-header);
   text-decoration: solid;
 }
 .navText:hover {
-  color: #d85f18;
+  color: #ff0069;
   transition: color 0.5s ease;
 }

@@ -1,75 +1,132 @@
 .cardCasion {
-  background-color: #f2f3f5fd;
+  background-color: white;
   padding: 15px;
   border-radius: 12px;
+  height: 200px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+.cardCasion.rankGold {
+}
+.cardCasion.rankSilver {
+}
+.cardCasion.rankBronze {
 }
 .content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
   height: 100%;
 }
 .info {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  flex-grow: 1;
-}
-
-.infoText {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.raiting {
-  align-self: flex-end;
-  font-size: 14px;
-  font-weight: 500;
-}
-.name {
-  margin: 0;
-  font-size: 24px;
-  font-weight: 700;
-}
-.bonus {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.imgWrap {
-  width: 40%;
-  border-radius: 20px;
+  gap: 30px;
+  align-items: center;
   height: 100%;
+}
+.rang {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--text-card);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.imgCover {
+  width: 15%;
+  height: 100%;
+  border-radius: 10px;
   overflow: hidden;
 }
 .img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  background-color: black;
+}
+.infoText {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+.titleWrap {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.name {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+}
+.raiting {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+}
+.welcom {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+}
+.bonus {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bonus::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ff4d6d;
+  box-shadow: 0 0 3px #ff073a, 0 0 8px #ff073a, 0 0 16px #ff073a;
+  border-radius: 50%;
+}
+
+.rang.rankGold {
+  color: var(--text-gold);
+  text-shadow: 0 2px 10px rgba(255, 217, 0, 0.1);
+  font-size: 60px;
+}
+.rang.rankSilver {
+  color: var(--text-silver);
+  text-shadow: 0 2px 10px rgba(192, 192, 192, 0.1);
+  font-size: 56px;
+}
+.rang.rankBronze {
+  color: var(--text-bronze);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 52px;
 }
 
 .link {
-  width: 60%;
+  width: 15%;
   align-self: center;
   text-align: center;
   background-color: var(--color-primary);
-  padding: 15px;
+  padding: 20px 15px;
   font-size: 18px;
   font-weight: 700;
   text-decoration: solid;
   border-radius: 25px;
-  color: #f2f3f5ec;
+  color: #ffffff;
   transition: background-color 0.4s ease, box-shadow 0.4s ease,
     transform 0.4s ease;
   cursor: pointer;
 }
-
+.link.backgroundClass {
+  align-self: flex-start;
+}
 /* Эффекты при наведении (Hover) */
 .link:hover {
-  background-color: #ff5e00; /* Яркий, насыщенный неоново-оранжевый цвет */
+  background-color: #91ff00; /* Яркий, насыщенный неоново-оранжевый цвет */
 
   /* Запуск беспрерывного пульса (длительность одного цикла сжатия-расширения — 0.8 секунды) */
   animation: continuous-pulse 0.8s infinite ease-in-out;
@@ -97,5 +154,75 @@
     /* Плавный возврат в исходное состояние и мгновенный запуск нового цикла */
     transform: scale(1);
     box-shadow: 0 0 12px rgba(255, 94, 0, 0.5), 0 0 4px rgba(255, 94, 0, 0.3);
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.cardCasion {
+  position: relative; /* Обязательно для позиционирования рамки */
+  z-index: 1; /* Карточка должна быть поверх псевдоэлементов рамки */
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  height: 200px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+/* Общие настройки анимированной рамки для призовых карточек */
+.cardCasion.rankGold,
+.cardCasion.rankSilver,
+.cardCasion.rankBronze {
+  border: none; /* Убираем стандартную тонкую рамку у топ-3 */
+}
+
+.cardCasion.rankGold::before,
+.cardCasion.rankSilver::before,
+.cardCasion.rankBronze::before,
+.cardCasion.rankGold::after,
+.cardCasion.rankSilver::after,
+.cardCasion.rankBronze::after {
+  content: "";
+  position: absolute;
+  inset: -4px; /* Толщина переливающейся рамки (4px) */
+  border-radius: 16px; /* border-radius карточки (12px) + толщина рамки (4px) */
+  background: conic-gradient(from var(--border-angle), var(--metal-colors));
+  animation: rotate-metal-border 4s linear infinite;
+  z-index: -1;
+}
+
+/* Мягкое внешнее свечение под цвет металла */
+.cardCasion.rankGold::after,
+.cardCasion.rankSilver::after,
+.cardCasion.rankBronze::after {
+  filter: blur(12px);
+  opacity: 0.6;
+  z-index: -2;
+}
+
+/* 1 место — ЗОЛОТО */
+.cardCasion.rankGold {
+  --metal-colors: #b8860b, #ffd700, #fff8dc, #eab308, #b8860b;
+}
+
+/* 2 место — СЕРЕБРО */
+.cardCasion.rankSilver {
+  --metal-colors: #64748b, #cbd5e1, #ffffff, #94a3b8, #64748b;
+}
+
+/* 3 место — БРОНЗА */
+.cardCasion.rankBronze {
+  --metal-colors: #78350f, #d97706, #fed7aa, #b45309, #78350f;
+}
+
+/* Анимация плавного перелива */
+@keyframes rotate-metal-border {
+  to {
+    --border-angle: 360deg;
   }
 }

@@ -1,38 +1,52 @@
 export interface CardCasinoType {
   name: string;
-  bonus: string;
+  bonus: string[];
   link: string;
   icon: string;
   raiting: string;
+  type: "gold" | "silver" | "bronze" | "basic";
 }
+import logo from "../logo/white.svg";
 
 export const MockCasinos: CardCasinoType[] = [
   {
-    name: "Kings Game",
-    bonus: "10% Weekly Cashback",
+    name: "Kings Game Casino",
+    bonus: ["Up to 500% ", "250 FS"],
     link: "https://kings.game/",
-    icon: "https://s3-eu-west-1.amazonaws.com/tpd/logos/69936ab914ed867d2322bf84/0x0.png",
+    icon: logo,
     raiting: "10/10",
+    type: "gold",
   },
   {
-    name: "Kings Game",
-    bonus: "10% Weekly Cashback",
+    name: "Betera",
+    bonus: ["10% Weekly Cashback"],
     link: "https://kings.game/",
-    icon: "https://assets.bitdegree.org/images/kings-game-review-square-logo.png?tr=w-250",
-    raiting: "10/10",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd-9hA_KN2akodzIqmjd-saynmJQwBo1m2pfzWSXGVBT4ww6SRTC9rmu3z&s=10",
+    raiting: "9/10",
+    type: "silver",
   },
   {
-    name: "Kings Game",
-    bonus: "10% Weekly Cashback",
+    name: "1 Win",
+    bonus: ["10% Weekly Cashback"],
     link: "https://kings.game/",
-    icon: "https://assets.bitdegree.org/images/kings-game-review-square-logo.png?tr=w-250",
-    raiting: "10/10",
+    icon: "https://fsn1.your-objectstorage.com/ac-cdn/images/1win.webp",
+    raiting: "9/10",
+    type: "bronze",
   },
   {
-    name: "Kings Game",
-    bonus: "10% Weekly Cashback",
+    name: "Winline",
+    bonus: ["10% Weekly Cashback"],
     link: "https://kings.game/",
-    icon: "https://s3-eu-west-1.amazonaws.com/tpd/logos/69936ab914ed867d2322bf84/0x0.png",
-    raiting: "10/10",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25Pr9YskXydIMn184GgGZ6y07Ht60V3fTI3VlnuofUs6imPUxl3yjjpo&s=10",
+    raiting: "8/10",
+    type: "basic",
+  },
+  {
+    name: "Fonbet",
+    bonus: ["10% Weekly Cashback"],
+    link: "https://kings.game/",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFh3cVAkpRdyteY36uY-CG4mSVq2tj4MzyaD_TlaFBPX7ErjxeSiFKNJk&s=10",
+    raiting: "7.5/10",
+    type: "basic",
   },
 ];

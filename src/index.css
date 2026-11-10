@@ -13,13 +13,22 @@ code {
 }
 
 :root {
-  --bg-main: #1c122c; /* Мягкий графитовый фон сайта */
+  --header: #181b22;
+  --text-header: #ffffff;
+
+  --bg-main: rgb(22, 25, 32); /* Мягкий графитовый фон сайта */
   --bg-card: #2a1b3d; /* Светлый фон для карточек и Хедера */
   --color-primary: #f07324; /* Оранжевый бренд-цвет */
   --color-primary-hover: #d85f18;
 
-  --text-main: #f2f3f5ec; /* Комфортный белый для заголовков */
+  --text-title: #ffffff; /* Комфортный белый для заголовков */
+  --text-main: #f3f4f6;
+  --text-card: #181818e0;
   --text-muted: #949ba4; /* Серый для описаний */
+
+  --text-gold: gold;
+  --text-silver: silver;
+  --text-bronze: #cd7f32;
 
   --border-color: rgba(255, 255, 255, 0.05);
 }
