@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  /* Темный графитовый фон сайта */
+  --header: #181b22;
+  --text-header: #ffffff;
+
+  --bg-main: rgb(22, 25, 32);
+  --bg-card: #2a1b3d;
+  --color-primary: #f07324;
+  --color-primary-hover: #d85f18;
+
+  --text-title: #ffffff;
+  --text-main: #f3f4f6;
+  --text-card: #181818e0;
+  --text-muted: #949ba4;
+
+  --text-gold: gold;
+  --text-silver: silver;
+  --text-bronze: #cd7f32;
+
+  --border-color: rgba(255, 255, 255, 0.05);
+
+  /* Мягкий цвет сайта */
+  --bg-page-white: #f8fafc;
+  --bg-surface-white: #ffffff;
+  --text-primary-white: #0f172a;
+  --text-secondary-white: #475569;
+  --text-muted-white: #64748b;
+  --accent-primary-white: #2563eb;
+  --accent-hover-white: #1d4ed8;
+  --border-color-white: #e2e8f0;
+  --container-width-white: 1120px;
+  --radius-md-white: 10px;
+  --radius-lg-white: 14px;
+}
