@@ -1,0 +1,19 @@
+.contactCard {
+  background-color: var(--bg-page-white);
+  border: 1px solid var(--border-color-white);
+  border-radius: var(--radius-md-white);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contactLabel {
+  font-size: 13px;
+  color: var(--text-muted-white);
+  margin-bottom: 4px;
+}
+
+.contactValue {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--accent-primary-white);
+}
