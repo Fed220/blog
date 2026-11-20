@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import styles from "./MainHeader.module.css";
+import { Gag } from "../cc/cc";
 
 export const MainHeader: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ export const MainHeader: React.FC = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link to="/" className={styles.logo} onClick={closeMenu}>
-          <span>CryptoBase</span>
+          <span>SolidBase</span>
           <span className={styles.logoBadge}>DOCS</span>
         </Link>
 
@@ -22,27 +23,27 @@ export const MainHeader: React.FC = () => {
           type="button"
           className={styles.burgerBtn}
           onClick={() => setIsMenuOpen((prev) => !prev)}
-          aria-label="Открыть меню"
+          aria-label="Abrir menú"
         >
           {isMenuOpen ? "✕" : "☰"}
         </button>
 
         <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ""}`}>
           <NavLink to="/" className={getLinkClass} onClick={closeMenu} end>
-            Статьи
+            Artículos
           </NavLink>
           <NavLink to="/about" className={getLinkClass} onClick={closeMenu}>
-            О проекте
+            Acerca del proyecto
           </NavLink>
           <NavLink
             to="/disclaimer"
             className={getLinkClass}
             onClick={closeMenu}
           >
-            Отказ от ответственности
+            Descargo de responsabilidad
           </NavLink>
           <NavLink to="/contacts" className={getLinkClass} onClick={closeMenu}>
-            Контакты
+            Contactos
           </NavLink>
         </nav>
       </div>

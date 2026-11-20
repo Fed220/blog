@@ -1,16 +1,10 @@
-.cardCasion {
+.cardBlog {
   background-color: white;
   padding: 15px;
   border-radius: 12px;
   height: 200px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.02);
-}
-.cardCasion.rankGold {
-}
-.cardCasion.rankSilver {
-}
-.cardCasion.rankBronze {
 }
 .content {
   height: 100%;
@@ -72,7 +66,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text-card);
 }
-.bonus {
+.gift {
   font-size: 18px;
   font-weight: 600;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -81,7 +75,7 @@
   align-items: center;
   gap: 8px;
 }
-.bonus::before {
+.gift::before {
   content: "";
   width: 6px;
   height: 6px;
@@ -126,32 +120,26 @@
 }
 /* Эффекты при наведении (Hover) */
 .link:hover {
-  background-color: #91ff00; /* Яркий, насыщенный неоново-оранжевый цвет */
+  background-color: #91ff00;
 
-  /* Запуск беспрерывного пульса (длительность одного цикла сжатия-расширения — 0.8 секунды) */
   animation: continuous-pulse 0.8s infinite ease-in-out;
 }
 
-/* Эффект при клике (Active) */
 .link:active {
   transform: scale(0.95);
-  animation: none; /* Отключаем пульсацию в момент клика */
+  animation: none;
 }
 
-/* Беспрерывная и плавная пульсация */
 @keyframes continuous-pulse {
   0% {
-    /* Исходное состояние кнопки и минимальное свечение */
     transform: scale(1);
     box-shadow: 0 0 12px rgba(255, 94, 0, 0.5), 0 0 4px rgba(255, 94, 0, 0.3);
   }
   50% {
-    /* Пик расширения — кнопка увеличивается, неоновое облако вспыхивает на максимум */
     transform: scale(1.08);
     box-shadow: 0 0 28px rgba(255, 94, 0, 1), 0 0 14px rgba(255, 94, 0, 0.6);
   }
   100% {
-    /* Плавный возврат в исходное состояние и мгновенный запуск нового цикла */
     transform: scale(1);
     box-shadow: 0 0 12px rgba(255, 94, 0, 0.5), 0 0 4px rgba(255, 94, 0, 0.3);
   }
@@ -163,9 +151,9 @@
   inherits: false;
 }
 
-.cardCasion {
-  position: relative; /* Обязательно для позиционирования рамки */
-  z-index: 1; /* Карточка должна быть поверх псевдоэлементов рамки */
+.cardBlog {
+  position: relative;
+  z-index: 1;
   background-color: white;
   padding: 15px;
   border-radius: 12px;
@@ -174,53 +162,47 @@
   border: 1px solid rgba(0, 0, 0, 0.02);
 }
 
-/* Общие настройки анимированной рамки для призовых карточек */
-.cardCasion.rankGold,
-.cardCasion.rankSilver,
-.cardCasion.rankBronze {
-  border: none; /* Убираем стандартную тонкую рамку у топ-3 */
+.cardBlog.rankGold,
+.cardBlog.rankSilver,
+.cardBlog.rankBronze {
+  border: none;
 }
 
-.cardCasion.rankGold::before,
-.cardCasion.rankSilver::before,
-.cardCasion.rankBronze::before,
-.cardCasion.rankGold::after,
-.cardCasion.rankSilver::after,
-.cardCasion.rankBronze::after {
+.cardBlog.rankGold::before,
+.cardBlog.rankSilver::before,
+.cardBlog.rankBronze::before,
+.cardBlog.rankGold::after,
+.cardBlog.rankSilver::after,
+.cardBlog.rankBronze::after {
   content: "";
   position: absolute;
-  inset: -4px; /* Толщина переливающейся рамки (4px) */
-  border-radius: 16px; /* border-radius карточки (12px) + толщина рамки (4px) */
+  inset: -4px;
+  border-radius: 16px;
   background: conic-gradient(from var(--border-angle), var(--metal-colors));
   animation: rotate-metal-border 4s linear infinite;
   z-index: -1;
 }
 
-/* Мягкое внешнее свечение под цвет металла */
-.cardCasion.rankGold::after,
-.cardCasion.rankSilver::after,
-.cardCasion.rankBronze::after {
+.cardBlog.rankGold::after,
+.cardBlog.rankSilver::after,
+.cardBlog.rankBronze::after {
   filter: blur(12px);
   opacity: 0.6;
   z-index: -2;
 }
 
-/* 1 место — ЗОЛОТО */
-.cardCasion.rankGold {
+.cardBlog.rankGold {
   --metal-colors: #b8860b, #ffd700, #fff8dc, #eab308, #b8860b;
 }
 
-/* 2 место — СЕРЕБРО */
-.cardCasion.rankSilver {
+.cardBlog.rankSilver {
   --metal-colors: #64748b, #cbd5e1, #ffffff, #94a3b8, #64748b;
 }
 
-/* 3 место — БРОНЗА */
-.cardCasion.rankBronze {
+.cardBlog.rankBronze {
   --metal-colors: #78350f, #d97706, #fed7aa, #b45309, #78350f;
 }
 
-/* Анимация плавного перелива */
 @keyframes rotate-metal-border {
   to {
     --border-angle: 360deg;

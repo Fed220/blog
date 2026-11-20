@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
+import { decodeText } from "../../../shared/function/decryptText";
 
 export default function Header() {
   return (
@@ -7,15 +8,15 @@ export default function Header() {
       <div className={styles.headerContent}>
         <div className={styles.logo}>
           <Link to="/" className={styles.logoText}>
-            Crypto Casinos
+            {decodeText("vJ6MlpGQjN+bmt+cjZaPi5CSkJGam56M")}
           </Link>
         </div>
         <nav className={styles.nav}>
           <Link to="/" className={styles.navText}>
-            Crypto Casinos
+            {decodeText("vJ6MlpGQjN+bmt+cjZaPi5CSkJGam56M")}
           </Link>
-          <Link to="/contact" className={styles.navText}>
-            Contact Us
+          <Link to="" className={styles.navText}>
+            FAQ
           </Link>
         </nav>
       </div>

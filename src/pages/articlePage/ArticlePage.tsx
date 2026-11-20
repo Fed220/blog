@@ -11,9 +11,9 @@ export const ArticlePage: React.FC = () => {
     return (
       <main className={styles.wrapper}>
         <div className={styles.notFound}>
-          <h1 className={styles.title}>Статья не найдена</h1>
+          <h1 className={styles.title}>Artículo no encontrado</h1>
           <Link to="/" className={styles.backLink}>
-            ← Вернуться к списку статей
+            ← Volver a la lista de artículos
           </Link>
         </div>
       </main>
@@ -23,14 +23,14 @@ export const ArticlePage: React.FC = () => {
   return (
     <main className={styles.wrapper}>
       <Link to="/" className={styles.backLink}>
-        ← Все статьи справочника
+        ← Todos los artículos de la guía de referencia
       </Link>
 
       <article className={styles.article}>
         <div className={styles.meta}>
-          <span>Опубликовано: {article.publishedAt}</span>
+          <span>Publicado: {article.publishedAt}</span>
           <span>•</span>
-          <span>Время чтения: {article.readTimeMinutes} мин</span>
+          <span>Tiempo de lectura: {article.readTimeMinutes} mín.</span>
         </div>
 
         <h1 className={styles.title}>{article.title}</h1>
@@ -38,7 +38,7 @@ export const ArticlePage: React.FC = () => {
         <div className={styles.authorBox}>
           <div>
             <div className={styles.authorName}>
-              Автор: {article.author.name}
+              Autor: {article.author.name}
             </div>
             <div className={styles.authorRole}>{article.author.role}</div>
           </div>

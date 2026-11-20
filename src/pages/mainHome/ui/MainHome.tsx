@@ -9,27 +9,27 @@ import styles from "./MainHome.module.css";
 type FilterValue = "all" | ArticleCategory;
 
 const FILTERS: { value: FilterValue; label: string }[] = [
-  { value: "all", label: "Все материалы" },
-  { value: "wallets", label: "Криптокошельки" },
-  { value: "security", label: "Безопасность" },
-  { value: "basics", label: "База знаний" },
+  { value: "all", label: "Todos los materiales" },
+  { value: "wallets", label: "Carteras" },
+  { value: "security", label: "Seguridad" },
+  { value: "basics", label: "Base de conocimientos" },
 ];
 
 const TOPICS: { category: ArticleCategory; title: string; desc: string }[] = [
   {
     category: "wallets",
-    title: "Архитектура кошельков",
-    desc: "Сравнение кастодиальных, программных и аппаратных решений для хранения ключей.",
+    title: "Arquitectura de billetera",
+    desc: "Comparación de soluciones de custodia, software y hardware para el almacenamiento de claves.",
   },
   {
     category: "security",
-    title: "Криптография и защита",
-    desc: "Стандарты BIP-39, резервное копирование сид-фраз и контроль смарт-контрактов.",
+    title: "Criptografía y seguridad",
+    desc: "Estándares BIP-39, copia de seguridad de claves semilla y control de contratos inteligentes.",
   },
   {
     category: "basics",
-    title: "Устройство блокчейн-сетей",
-    desc: "Принципы расчета комиссий (Gas), стандарты токенов и работа обозревателей.",
+    title: "La estructura de las redes blockchain",
+    desc: "Principios para el cálculo de comisiones (Gas), estándares de tokens y trabajo de los observadores.",
   },
 ];
 
@@ -44,24 +44,24 @@ export const MainHome: React.FC = () => {
   return (
     <main className={styles.page}>
       <section className={styles.hero}>
-        <span className={styles.heroTag}>Техническая база знаний</span>
+        <span className={styles.heroTag}>Base de conocimientos técnicos</span>
         <h1 className={styles.heroTitle}>
-          Справочник по криптовалютам и цифровым кошелькам
+          Guía sobre divisas y monederos digitales
         </h1>
         <p className={styles.heroSubtitle}>
-          Независимые технические обзоры некастодиальных и аппаратных кошельков,
-          пошаговые руководства по защите приватных ключей и разбор принципов
-          работы распределенных реестров.
+          Análisis técnicos independientes de monederos de hardware y sin
+          custodia, guías paso a paso para proteger las claves privadas y un
+          análisis de los principios de los libros de contabilidad distribuidos.
         </p>
         <div className={styles.heroStats}>
           <div className={styles.heroStatItem}>
-            <strong>{ARTICLES_MOCK.length}</strong> подробных руководств
+            <strong>{ARTICLES_MOCK.length}</strong> manuales detallados
           </div>
           <div className={styles.heroStatItem}>
-            <strong>100%</strong> образовательный контент без рекламы
+            <strong>100%</strong> Contenido educativo sin publicidad
           </div>
           <div className={styles.heroStatItem}>
-            <strong>Актуально</strong> на ноябрь 2026 года
+            <strong>Importante</strong> A partir de noviembre de 2026
           </div>
         </div>
       </section>

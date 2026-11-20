@@ -1,166 +1,172 @@
 const questionsAnswer = [
   {
-    title: "What is a Bitcoin casino?",
+    title: "PUCuijxW35qM34qR35yejJaRkN+bmt+9louckJaRwA==",
     answer:
-      "It is an online casino that accepts Bitcoin, and usually other coins, for deposits and withdrawals instead of cards or bank transfers. You send BTC from your own wallet to a deposit address the casino generates, and the balance appears once the network confirms the transaction. Games themselves are the same slots, table games and live dealer titles you would find elsewhere — the difference sits in the payment rail and, often, in how much identity information the site asks for.",
+      "rJrfi42ei57fm5rfipHfnJ6MlpGQ35qR35M8UpGant+Oiprfnpyaj4ue372Wi5yQlpHfHX9rhtPfj5CN35OQ35iakZqNnpPT35CLjZ6M35yNlo+LkJKQkZqbnowdf2vfj56Nnt+Nmp6TloWejd+bmo88TIyWi5CM34bfjZqLlo2QjNPfmpHfk4qYno3fm5rfiouWk5aFno3fi56NlZqLnozfkN+LjZ6RjJmajZqRnJaejN+dnpGcno2WnozR37qRiTxSnozfvau835uajJua34uK34+NkI+Wnt+dlpOTmouajZ7fnt+KkZ7fm5aNmpycljxMkd+bmt+bmo88TIyWi5DfmJqRmo2em57fj5CN35qT35yejJaRkNPfht+ak9+MnpObkN+ej56Nmpya34qRnt+JmoXfjoqa35Oe342am9+ckJGZlo2Snt+Tnt+LjZ6RjJ6cnJY8TJHR37OQjN+VipqYkIzfmpHfjDxS34yQkd+TkIzfkpaMkpCM3x1/a5I8Xo6KlpGejN+LjZ6YnpKQkZqbnozT35WKmpiQjN+bmt+Smoye34bfizxSi4qTkIzfnJCR35yNio+Wmo3fmpHfiZaJkB1/a9+OiprfmpGckJGLjZ6NPFKejN+akd+cip6TjoqWmo3fkIuNkN+TipiejcTfk57fm5aZmo2akZyWnt+NnpuWnJ7fmpHfmpPfkjxWi5CbkN+bmt+PnpiQ34bT357fkpqRipuQ09+akd+Tnt+cnpGLlpuem9+bmt+WkZmQjZKenJY8TJHfm5rflpuakYuWm56b346Kmt+MkJOWnJaLnt+ak9+MlouWkNE=",
   },
   {
-    title: "Are Bitcoin casinos safe to use?",
+    title: "T1AuozfjJqYio2Q34qLlpOWhZ6N35yejJaRkIzfm5rfvZaLnJCWkcDd",
     answer:
-      "Safety varies by operator and is not established by the fact that a site accepts BTC. The practical checks are a verifiable licence on the exact domain you are using, named operating company, clear withdrawal terms, RNG certification or provably fair verification, two‑factor authentication on your account, and a support channel that answers before you deposit. Offshore sites generally offer weaker consumer protection and fewer complaint routes than state regulated crypto casinos, so treat balances held on site as money at risk.",
+      "bOe34yamIqNlpuem9+Jno08Up7fjJqYPEWR35qT35CPmo2em5CN34bfkZDfjoqam57fmJ6NnpGLloWem57fj5CN35qT34yWko+Tmt+XmpyXkN+bmt+OiprfipHfjJaLlpDfnpyaj4ua372rvNHfs5CM356Mj5qci5CM346Kmt+ckJGJlpqRmt+Jmo2WmZacno3flpGck4qGmpHF34qRnt+TlpyakZyWnt+JPF6Tlpue34+ejZ7fmpPfm5CSlpGWkN+ajI+anDxSmZackN+OiprfmoyLPF6M34qLlpOWhZ6Rm5DT35Oe35abmpGLlpmWnJ6cljxMkd+bmt+Tnt+ako+Nmoye35CPmo2em5CNntPfnJCRm5aclpCRmozfm5rfjZqLlo2Q35yTno2ejNPfnJqNi5aZlpyenJY8TJHfm5rfipHfmJqRmo2em5CN35ua35E8RZKajZCM356Tmp6LkI2WkIzf162xuNbfkN+MloyLmpKejN+Oiprfj5qNkpaLnpHfnJCSj42QnZ6N35Oe35qOipabnpvfm5rfk5CM35WKmpiQjNPfnoqLmpGLlpyenJY8TJHfm5rfm5CM35menIuQjZqM35qR34uK35yKmpGLnt+G34qR35yekZ6T35ua356LmpGcljxMkd+ek9+ck5aakYua346Kmt+NmoyPkJGbnt+ekYuajN+bmt+OiprfjZqek5acmozfipHfm5qPPEyMlouQ0d+vkI3fk5DfmJqRmo2ek9Pfk5CM34yWi5aQjN+ckJHfjJqbmt+akd+Vio2WjJuWnJyWkJGajN+ah4uNnpGVmo2ejN+QmY2anJqR34qRnt+SmpGQjd+PjZCLmpycljxMkd+ek9+ckJGMipKWm5CN34bfkpqRkIzfiTxSnozfj56Nnt+PjZqMmpGLno3fjZqck56SnpyWkJGajN+Oiprfk5CM35yNlo+LkJyejJaRkIzfjZqYipOem5CM357fkZaJmpPfmoyLnouek8Tfj5CN34uekYuQ09+ckJGMlpuajZ7fjoqa35yKnpOOipaajd+MnpObkN+Oiprfkp6Ri5qRmJ6M35qR35Oe34+TnouemZCNkp7fmozfm5aRmo2Q35qR342WmoyYkNHd",
   },
   {
-    title: "How do deposits at a crypto casinos work?",
+    title:
+      "T1AvDxMkpDfmYqRnJaQkZ6R35OQjN+bmo88TIyWi5CM35qR35OQjN+cjZaPi5CcnoyWkZCMwN0=",
     answer:
-      "You open the cashier, pick a coin and network, and the site shows a deposit address or QR code. You send the exact amount from your wallet or exchange to that address. After the required number of blockchain confirmations the funds credit to your casino balance, usually converted into an internal dollar or coin balance. Sending on the wrong network, or sending a coin to an address generated for a different coin, is the most common way players lose funds — the casino cannot reverse it.",
+      "b6cnJqbmozfnt+Tnt+MmpycljxMkd+bmt+cnpWe09+MmpOanJyWkJGejN+KkZ7fnI2Wj4uQkpCRmpue34bfk57fjZqb35yQjY2ajI+QkZuWmpGLmtPfht+ak9+MlouWkN+Lmt+SipqMi42e34qRnt+blo2anJyWPEyR35ua35uajzxMjJaLkN+Q34qR35w8TJuWmJDfrq3R37qRiTxSnozfk57fnJ6Ri5abnpvfmoeenIue35uajJua34uK352Wk5Oai5qNnt+Q34+TnouemZCNkp7fm5rflpGLmo2cnpKdlpDfnt+blpyXnt+blo2anJyWPEyR0d+rjZ6M35yQko+TmouejYya35qT35E8RZKajZDfjZqOipqNlpuQ35ua35yQkZmWjZKenJaQkZqM35qR35Oe35yem5qRnt+bmt+dk5COipqM39edk5CclJyXnpaR1tPfk5CM35mQkZuQjN+Mmt+enI2am5aLnpHfmpHfi4rfjJ6Tm5Dfm5qT35yejJaRkNPfmJqRmo2ek5KakYua35yQkYmajYuWm5CM357fipHfjJ6Tm5DflpGLmo2RkN+ah4+Nmoyem5DfmpHfmzxMk56NmozfkN+akd+Tnt+PjZCPlp7fnI2Wj4uQkpCRmpue0d+tmp6TloWejd+Kkd+akYk8UpDfnt+LjZ6JPFaM35ua34qRnt+NmpvflpGckI2NmpyLntPfkN+akYmWno3fipGe35yNlo+LkJKQkZqbnt+e34qRnt+blo2anJyWPEyR35iakZqNnpue34+ejZ7fkIuNnt+bloyLlpGLntPfmozfk57fmZCNkp7fkjxejN+Xnp2Wi4qek9+akd+Tnt+Oiprfk5CM35WKmJ6bkI2ajN+PlpqNm5qR34yKjN+ZkJGbkIzE35qT35yejJaRkN+RkN+Pipqbmt+NmomajYuWjd+ajIuejN+Qj5qNnpyWkJGajNHd",
   },
   {
-    title: "Do crypto casinos require KYC?",
+    title: "T1As5CM35yNlo+LkJyejJaRkIzfmoeWmJqR37SmvMDd",
     answer:
-      "Many do not ask at signup, but almost all reserve the right to ask later. Terms at offshore sites routinely allow verification requests triggered by withdrawal size, cumulative volume, bonus activity, duplicate account suspicion or anti‑money-laundering obligations. So the honest framing is 'no KYC unless something triggers it' rather than 'never any KYC'. Read the verification clause before you deposit, not after you have won.",
+      "bKKnJeQjN+RkN+MkJOWnJaLnpHflpGZkI2SnpyWPEyR356T342amJaMi42ejYya09+Pmo2Q35yejJbfi5CbkIzfjJrfjZqMmo2JnpHfmpPfm5qNmpyXkN+bmt+XnpyajZOQ35I8Xozfnpuak56Ri5rR37OQjN+LPFaNkpaRkIzfht+ckJGblpyWkJGajN+bmt+TkIzfjJaLlpCM35yQkd+Mmpua35qR35qT35qHi42ekZWajZDfjIqak5qR35yQkYuako+Tno3fjJCTlpyWi4qbmozfm5rfiZqNlpmWnJ6cljxMkdPfk56M35yKnpOajN+PipqbmpHfnpyLlomejYya35qR35mKkZyWPEyR35uak9+Wko+QjYua35ua35OejN+NmouWjZ6bnozT35qT34mQk4qSmpHfnpyKkoqTnpuQ35ua356PipqMi56M09+Tnt+enIuWiZabnpvfjZqTnpyWkJGem57fnJCR352QkZCM09+Tnt+MkIyPmpyXnt+bmt+cipqRi56M35uKj5OWnJ6bnozfkN+ak9+cipKPk5aSlpqRi5Dfm5rfkZCNkp6LlomejN+ckJGLjZ7fmpPfnZOekY6KmpDfm5rfnJ6Plouek5qM0d+vkI3fi56Ri5DT35OQ35I8Xozfj42anJaMkN+ajN+bmpyWjd89VJGQ34ya342ajoqWmo2a34majZaZlpyenJY8TJHf17SmvNbfnt+SmpGQjN+OiprfjIqNlZ7fnpOYPEWR35KQi5aJkN+Oiprfk57fm5qMmpGcnpuakZo9RNPfmpHfk4qYno3fm5rfnpmWjZKejd+OiprfPVSRipGcnt+Mmt+MkJOWnJaLnt+Jmo2WmZacnpyWPEyRPUTR37Oamt+Tnt+ckzxeioyKk57fm5rfiZqNlpmWnJ6cljxMkd+ekYuajN+bmt+Nmp6TloWejd+Kkd+bmo88TIyWi5DT35GQ35uajI+KPFaM35ua35eenZqN35Cdi5qRlpuQ35iekZ6RnJaejNHd",
   },
   {
-    title: "How long do crypto casino withdrawals take?",
+    title:
+      "PUC8ijxekYuQ34uWmpKPkN+Lno2bnpHfk5CM342ai5aNkIzfmpHfk5CM35yNlo+LkJyejJaRkIzA",
     answer:
-      "First the casino approves the payout, which can be near-instant on an auto-approved account or can take hours to days if the request is flagged, verification is outstanding or a bonus is still in play. Then the blockchain settles it, which depends on the coin and network congestion — Litecoin and most stablecoins on low fee networks typically clear in minutes, Bitcoin on chain takes longer. Any timeframe a site publishes is its own target, not a measured result.",
+      "bqR34+NlpKajd+TipiejdPfmpPfnJ6MlpGQ356PjYqanZ7fmpPfj56YkMTfmoyLmt+PjZCcmoyQ34+Kmpua34yajd+cnoyW35aRjIuekYs8XpGakN+akd+cipqRi56M35yQkd+ej42QnZ6cljxMkd+eiouQkjxei5acntPfkN+dlpqR34+Kmpua34uejZuejd+bmoybmt+XkI2ejN+XnoyLnt+bPFKejN+Mlt+Tnt+MkJOWnJaLipvfjoqam57fkp6NnJ6bntPfjJbfmZ6Ti57fnJCSj5Oai56N34qRnt+Jmo2WmZacnpyWPEyR35DfjJbfi5Cbnok8Up7fl56G34qR352QkZDfnpyLlomQ0d++35yQkYuWkYqenJY8TJHT35Oe35yem5qRnt+bmt+dk5COipqM39edk5CclJyXnpaR1t+Tlo6Klpue35Oe34uNnpGMnpycljxMkdPfipHfj42QnJqMkN+Oiprfm5qPmpGbmt+bmt+Tnt+cjZaPi5CSkJGam57fiouWk5aFnpue34bfm5rfk57fnJCRmJqMi5Y8TJHfm5rfk57fjZqbxd+akd+ak9+cnoyQ35ua37OWi5qckJaR34bfk57fkp6GkI08Up7fm5rfk56M3z1UkpCRmpuejN+ajIuenZOajD1E39eMi56dk5qckJaRjNbfmpHfjZqbmozfm5rfnZ6VnozfnJCSloyWkJGajNPfk57fkI+ajZ6cljxMkd+MipqTmt+ckJKPk5qLno2Mmt+akd+cipqMi5Y8TJHfm5rfkpaRiouQjNPfkpaakYuNnozfjoqa09+akd+Tnt+Nmpvfm5rfvZaLnJCWkdPfmpPfj42QnJqMkN+Nmo6KlpqNmt+SPF6M34uWmpKPkNHfvIqek46KlpqN34+TnoWQ346Kmt+Kkd+MlouWkN+Imp3fj4qdk5aOiprfnJCRjIuWi4qGmt88RZGWnJ6SmpGLmt+KkZ7fmoyLlpKenJY8TJHfj42Qj5ae09+RkN+Kkd+NmoyKk4uem5DfmJ6NnpGLloWem5DR3Q==",
   },
 ];
 const assedText = [
   {
-    title: "Operating company and ownership. ",
-    des: "Terms pages should name a legal entity and a registered address. A site that will not say who operates it gives you nobody to escalate to.",
+    title: "bqSj42ajJ7fkI+ajZ6bkI2e34bfi5aLipOejZabnpvR390=",
+    des: "s56M3488XpiWkZ6M35ua34s8Vo2SlpGQjN+bmp2akd+WkZuWnJ6N34qRnt+akYuWm56b35OamJ6T34bfipHfm5CSlpyWk5aQ34yQnJaek9HfqpHfjJaLlpDfjoqa35GQ342aiZqTnt+OipY8VpHfk5DfkI+ajZ7fkZDfi5rfkJmNmpya357fjoqWPFaR35uWjZaYlo2Lmt+akd+cnoyQ35ua35GanJqMlouejd+ajJyek56N34qR356MipGLkNHf",
   },
   {
-    title: "Terms and conditions quality. ",
-    des: "Internal consistency between the promotions page and the bonus terms. Contradictions between the two are a reliable warning sign.",
+    title: "qzxWjZKWkZCM34bfnJCRm5aclpCRmozfm5rfnJ6Tlpuem9Hf",
+    des: "vJCRjJaMi5qRnJae35aRi5qNkZ7fmpGLjZrfk57fjzxemJaRnt+bmt+PjZCSkJyWkJGajN+G35OQjN+LPFaNkpaRkIzfm5rfk5CM352QkZCM0d+znozfnJCRi42em5acnJaQkZqM35qRi42a356SnZCM35yQkYyLlouKhpqR34qRnt+MmjxOnpPfm5rfnpOajYue35yTno2e0Q==",
   },
   {
-    title: "Bitcoin and coin support. ",
-    des: "Whether BTC, ETH, LTC, USDT, USDC and DOGE are supported, and whether altcoin support extends further.",
+    title: "rJCPkI2Lmt+Pno2e372Wi5yQlpHfht+Qi42ejN+SkJGam56M0d8=",
+    des: "jbW8r5S2zbOSi9SvkZDNmszIzaiWyoauk4+3mZeL1K6Wy82albHUrJS1uJ6Sysmyz5vHwg==",
   },
   {
-    title: "Withdrawal terms. ",
-    des: "Minimums, maximums per period, approval stages and any bonus-linked restriction on cashing out.",
+    title: "vJCRm5aclpCRmozfm5rfjZqLlo2Q0d8=",
+    des: "sjxSkZaSkIzT35I8XoeWkpCM34+Qjd+Pmo2WkJuQ09+ai56Pnozfm5rfno+NkJ2enJY8TJHfht+cip6TjoqWmo3fjZqMi42WnJyWPEyR34mWkZyKk56bnt+e352QkZaZlpyenJaQkZqM34+ejZ7fk57fjZqLlo2em57fm5rfmZCRm5CM0Q==",
   },
   {
-    title: "Verification policy. ",
-    des: " What is asked at registration versus what can be asked later, and at what thresholds.",
+    title: "r5CTPFKLlpye35ua34majZaZlpyenJY8TJHR3w==",
+    des: "roo8Vt+Mmt+MkJOWnJaLnt+bio2ekYua35qT342amJaMi42Q35mNmpGLmt+e346KPFbfjJrfj4qam5rfjJCTlpyWi56N35I8Xozfnpuak56Ri5rT34bfnt+Pno2Llo3fm5rfjoo8Vt+Kkp2NnpOajNE=",
   },
   {
-    title: "Support access. ",
-    des: "Whether live chat is available around the clock and whether the terms direct complaints anywhere specific.",
+    title: "vpycmoyQ35ua34yQj5CNi5rR3w==",
+    des: "rJbfmpPfnJeei9+akd+JlomQ35qMizxe35uWjI+QkZadk5rfk56M383L35eQjZ6M34bfjJbfk5CM34s8Vo2SlpGQjN+WkZuWnJ6R356TmDxFkd+Tipiejd+ajI+anDxSmZackN+ek9+Oiprfm5aNlpiWjd+TnozfjoqalZ6M0Q==",
   },
   {
-    title: "Account controls.",
-    des: " Deposit limits, loss limits, session reminders, cool-offs and self-exclusion.",
+    title: "vJCRi42Qk5qM35ua35yKmpGLntHf",
+    des: "szxSkpaLmozfm5rfm5qPPEyMlouQ09+TPFKSlouajN+bmt+PPFaNm5abnozT342anJCNm56LkI2WkIzfm5rfjJqMljxMkdPfj5qNlpCbkIzfm5rfj56KjJ7fht+eiouQmoeck4qMljxMkdE=",
   },
 ];
 const metodText = [
   {
-    title: "Bitcoin",
-    des: "BTC is the default at every brand here and the reason 'online casino bitcoin' is such a common search. It has the deepest liquidity and the widest support. Its trade-offs are slower confirmation than most alternatives and network fees that rise with congestion. For small deposits, a high fee period can eat a meaningful share of the transfer — check the fee estimate before confirming.",
+    title: "vZaLnJCWkQ==",
+    des: "vau835qM35Oe35CPnJY8TJHfj42am5qLmo2SlpGem57fmpHfi5Cbnozfk56M35KejZyejN+Oiprfno+ejZqcmpHfno6KPFLT34bfmozfk57fjZ6FPEyR34+Qjd+Tnt+OiprfPVScnoyWkZDfkJGTlpGa352Wi5yQlpE9RN+ajN+KkZ7fnTxFjI6Kmpue34uekd+ZjZqcipqRi5rR37yKmpGLnt+ckJHfk57fkp6GkI3fk5aOipabmoXfht+ak9+MkI+QjYua35I8XozfnpKPk5aQ0d+siozflpGckJGJmpGWmpGLmozfjJCR34qRnt+ckJGZlo2SnpyWPEyR35I8Xozfk5qRi57fjoqa35qR35Oe35KehpCNPFKe35ua35OejN+ek4uajZGei5aJnozT356bmpI8Xozfm5rfnJCSloyWkJGajN+bmt+Nmpvfjoqa356KkpqRi56R35yKnpGbkN+XnobfnJCRmJqMi5Y8TJHR37qR35qT35yejJDfm5rfk5CM35uajzxMjJaLkIzfj5qOipo8TpCM09+Kkd+Pmo2WkJuQ35ua35yQkpaMlpCRmozfmpOaiZ6bnozfj4qam5rfnp2MkI2dmo3fipGe34+ejYua35yQkYyWm5qNnp2Tmt+bmt+Tnt+LjZ6RjJmajZqRnJaexN+PkI3fmpOTkNPfnJCSj42Kmp2e35Oe35qMi5aSnpyWPEyR35ua35Oe35yQkpaMljxMkd+ekYuajN+bmt+ckJGZlo2Sno3R",
   },
   {
-    title: "Cryptocurrency deposits",
-    des: "The flow is consistent across coins: generate a deposit address in the cashier, select the correct network, send from your wallet, wait for confirmations, balance credits. Minimum deposits across these brands sit around $10–$20 equivalent. Network matters as much as coin — USDT exists on several chains with different fees and speeds, and choosing the wrong one at either end loses the funds.",
+    title: "u5qPPEyMlouQjN+akd+cjZaPi5CSkJGam56M",
+    des: "upPfj42QnJqMkN+ajN+KkZaZkI2Smt+Pno2e34uQm56M35OejN+cjZaPi5CSkJGam56Mxd+YmpGajZ6N34qRnt+blo2anJyWPEyR35ua35uajzxMjJaLkN+akd+Tnt+MmpycljxMkd+bmt+cnpWe09+MmpOanJyWkJGejd+Tnt+NmpvfnJCNjZqci57T342anpOWhZ6N35qT35qRiTxSkN+bmoybmt+Lit+dlpOTmouajZ7T35qMj5qNno3fk56M35yQkZmWjZKenJaQkZqM34bT35mWkZ6TkpqRi5rT34majd+NmpmTmpWem5DfmpPfjJ6Tm5DR37qT35uajzxMjJaLkN+SPFKRlpKQ35qR35qMi56M34+TnouemZCNkp6M34yKmpOa342QkZuejd+ak9+ajoqWiZ6TmpGLmt+e35qRi42a387P34bfzc/fmzxMk56NmozR37Oe342am9+ajN+LnpHflpKPkI2LnpGLmt+ckJKQ35Oe34+NkI+Wnt+cjZaPi5CSkJGam57E34+Qjd+alZqSj5OQ09+ak9+qrLur35CPmo2e35qR35uWiZqNjJ6M35yem5qRnozfnJCR35uWjIuWkYuejN+ckJKWjJaQkZqM34bfiZqTkJyWm56bmozT34bfmpOamJaN35Oe342am9+WkZyQjY2anIue3x1/a4ae34yant+ek9+akYmWno3fkN+ek9+NmpyWnZaNHX9r35yQkZOTmome35Oe3488Vo2blpue35ua35OQjN+ZkJGbkIzR",
   },
   {
-    title: "Cryptocurrency withdrawals",
-    des: "Withdrawal support does not automatically mirror deposit support. Some top crypto casinos accept a coin in but pay out in a different one, or impose a higher minimum on withdrawals than deposits. Check the cashier's withdrawal tab before you deposit, not after you have a balance to move. Expect a minimum withdrawal, possible per-day or per-week limits, and in some cases an operator-side fee in addition to the network fee.",
+    title: "rZqLlo2QjN+bmt+cjZaPi5CSkJGam56M",
+    des: "s57fm5aMj5CRlp2Wk5abnpvfm5rfkI+clpCRmozfj56Nnt+NmouWjZ6N35yNlo+LkJKQkZqbnozfkZDfjJaako+Nmt+ckJaRnJabmt+ckJHfk56M35CPnJaQkZqM35uWjI+QkZadk5qM34+ejZ7fjZqek5aFno3fm5qPPEyMlouQjNHfvpOYipGQjN+bmt+TkIzfj42WkZyWj56TmozfnI2Wj4uQnJ6MlpGQjN+Pmo2Slouakd+bmo+QjJaLno3fipGe35KQkZqbnt+ajI+anDxSmZacntPfj5qNkN+amZqcizxFnpHfk5CM34+emJCM35qR34qRnt+SkJGam57fm5aMi5aRi57E356MlpKWjJKQ09+PipqbmpHfmoyLnp2Tmpyajd+Kkd+Wko+QjYua35I8UpGWkpDfm5rfjZqLlo2Q34yKj5qNlpCN356T342ajoqajZabkN+Pno2e35OQjN+bmo88TIyWi5CM0d+8kJGMipOLnt+Tnt+MmpycljxMkd+bmt+NmouWjZCM35qR35qT35yelZqNkN+ekYuajN+bmt+Nmp6TloWejd+Kkd+bmo88TIyWi5DT35qR35OKmJ6N35ua35qMj5qNno3fnt+LmpGajd+Kkd+MnpObkN+bloyPkJGWnZOa34+ejZ7fjZqLlo2ejdHfq5qR35qR35yKmpGLnt+OiprfjIqak5qR35qHloyLlo3flpKPkI2LmozfkjxSkZaSkIzfm5rfjZqLlo2Q09+PkIyWnZOajN+TPFKSlouajN+blp6NlpCM35DfjJqSnpGek5qM34bT35qR35yWmo2LkIzfnJ6MkIzT35yQkpaMlpCRmozfnpuWnJaQkZ6TmozflpKPipqMi56M34+Qjd+ak9+PjZCPlpDfkI+ajZ6bkI3T346Kmt+Mmt+MipKekd+e35OejN+ckJKWjJaQkZqM35ua35Oe342am9E=",
   },
   {
-    title: "Crypto wallets",
-    des: "Self-custody wallets give you key control and better transaction privacy than an exchange account, which is linked to your verified identity. Hardware wallets add offline key storage for larger balances. Exchange wallets are simpler and better suited to converting between coins. Many players use both: exchange for buying",
+    title: "vZaTk5qLmo2ejN+bmt+cjZaPi5CSkJGam56M",
+    des: "s56M352Wk5Oai5qNnozfm5rfnoqLkJyKjIuQm5ae34ua352NlpGbnpHfnJCRi42Qk9+MkJ2Nmt+LiozfnJOeiZqM34bfipGe35KehpCN34+NlomenJabnpvfmpHfk56M34uNnpGMnpyclpCRmozfmpHfnJCSj56NnpyWPEyR35yQkd+KkZ7fnIqakYue35qR34qRnt+Pk56LnpmQjZKe35ua35aRi5qNnJ6SnZaQ09+Tnt+cip6T35qMizxe34mWkZyKk56bnt+e34uK35abmpGLlpuem9+Jmo2WmZacnpue0d+znozfnZaTk5qLmo2ejN+bmt+Xno2biJ6Nmt+ePE6em5qR34qRnt+cno+e35ua356Tkp6cmpGekpaakYuQ35ua35yTnomajN+MlpHfnJCRmoeWPEyR09+Wm5qek9+Pno2e34yek5uQjN+SPF6M35qTmomem5CM0d+znozfnZaTk5qLmo2ejN+bmt+Tnozfj5Oei56ZkI2Snozfm5rflpGLmo2cnpKdlpDfjJCR35I8XozfjJqRnJaTk56M34bfjZqMipOLnpHfkjxejN+em5qcip6bnozfj56Nnt+Nmp6TloWejd+ckJGJmo2MlpCRmozfmpGLjZrfm5aMi5aRi56M35yNlo+LkJKQkZqbnozR37KKnJeQjN+KjIqejZaQjN+ako+Tmp6R356SnZ6Mxd+Tnozfj5Oei56ZkI2Snozfm5rflpGLmo2cnpKdlpDfj56Nnt+Nmp6TloWejd+ckJKPjZ6M0Q==",
   },
   {
-    title: "Debit cards",
-    des: "Some crypto casinos offer a card on-ramp that buys crypto on your behalf through a third-party processor, then credits the balance. This is not the same as a card deposit at a fiat casino: the processor handles the purchase, conversion spreads apply, and the transaction appears on your bank statement. US card issuers frequently decline gambling-related transactions. If card availability is important to you, confirm it with the specific operator — we cannot verify it for any brand on this page.",
+    title: "q56NlZqLnozfm5rfmzxWnZaLkA==",
+    des: "vpOYipGQjN+cjZaPi5CcnoyWkZCM35CZjZqcmpHfipGe35CPnJY8TJHfj56Nnt+ckJKPjZ6N35yNlo+LkJKQkZqbnozfkpqblp6Ri5rfi56NlZqLnt+e34uNnok8Vozfm5rfipHfj42QnJqMnpuQjd+ah4uajZGQ09+LjZ6M35OQ35yKnpPfmpPfjJ6Tm5DfjJrfnpyNmpuWi57fmpHfi4rfnIqakYue0d+6jIuQ35GQ35qM35OQ35KWjJKQ346Kmt+Nmp6TloWejd+Kkd+bmo88TIyWi5DfnJCR34uejZWai57fmpHfipHfnJ6MlpGQ34uNnpuWnJaQkZ6T39eOiprfkI+ajZ7fnJCR35KQkZqbnt+ZlpuKnJaejZae1sXfmpPfj42QnJqMnpuQjd+YmoyLlpCRnt+Tnt+ckJKPjZ7T34ya356Pk5acnpHfnJCSloyWkJGajN+PkI3fnJCRiZqNjJY8TJHfht+Tnt+LjZ6RjJ6cnJY8TJHfno+ejZqcmt+NmpmTmpWem57fmpHfi4rfmoeLjZ6ci5DfnZ6RnJ6NlpDR37OQjN+akpaMkI2ajN+bmt+Lno2VmouejN+akd+6utHfqqrR34yKmpOakd+NmpyXnoWejd+Tnozfi42ekYyenJyWkJGajN+NmpOenJaQkZ6bnozfnJCR35qT35WKmpiQ0d+slt+Pno2e34uW35qM35aSj5CNi56Ri5rfj5Cbmo3fiouWk5aFno3fipGe34uejZWai57T35yQkYw8RZOLnpOQ35uWjZqci56SmpGLmt+ckJHfmpPfkI+ajZ6bkI3fmpHfnIqajIuWPEyRxN+RkIyQi42QjN+RkN+PkJuakpCM34majZaZlpyejd+ajIue34+QjJadlpOWm56b34+ejZ7fkZaRmIqRnt+bmt+Tnozfkp6NnJ6M346Kmt+ej56Nmpyakd+akd+ajIue3488XpiWkZ7R",
   },
   {
-    title: "Bank transfers",
-    des: "Direct bank transfer is uncommon at offshore crypto casinos and, where offered, is usually slow and subject to the same banking scrutiny the crypto route avoids. Most players buy coins at an exchange using a bank transfer, then move the coins on-chain to the casino. That is two steps, with the exchange handling the fiat side.",
+    title: "q42ekYyZmo2akZyWnozfnZ6RnJ6Nlp6M",
+    des: "s57fi42ekYyZmo2akZyWnt+dnpGcno2Wnt+blo2anIue35GQ35qM35eenZaLip6T35qR35OQjN+cjZaPi5CcnoyWkZCM35yQkd+Mmpua35qR35qT35qHi42ekZWajZDfhtPfnIqekZuQ34ya35CZjZqcmtPfjIqak5rfjJqN35OakYue34bfmoyLno3fjIqVmoue356T35KWjJKQ35qMnI2Ki5aRlpDfnZ6RnJ6NlpDfjoqa34ya35qJloue356T34qLlpOWhZ6N35yNlo+LkJKQkZqbnozR37Oe35KehpCNPFKe35ua35OQjN+Vipiem5CNmozfnpuOipaajZqR35yNlo+LkJKQkZqbnozfmpHfipGe34+TnouemZCNkp7fm5rflpGLmo2cnpKdlpDfkpqblp6Ri5rfi42ekYyZmo2akZyWnt+dnpGcno2Wnt+G09+PkIyLmo2WkI2SmpGLmtPfk56M34uNnpGMmZaajZqR357fi42eiTxWjN+bmt+Tnt+cnpuakZ7fm5rfnZOQjoqajN/XnZOQnJScl56WkdbfnpPfnJ6MlpGQ0d+smt+LjZ6Lnt+bmt+Kkd+PjZCcmoyQ35ua35uQjN+PnoyQjNPfmpHfmpPfjoqa35Oe34+TnouemZCNkp7fm5rflpGLmo2cnpKdlpDfjJrfmpGcno2Ynt+bmt+Tnt+YmoyLljxMkd+bmt+Tnt+SkJGam57fmZabipyWno2WntE=",
   },
   {
-    title: "E-wallets",
-    des: "Traditional e-wallets appear at some crypto‑accepting sites but are not the norm among the brands here, and availability varies by region. Treat the presence of an e-wallet logo as something to verify in the cashier rather than assume.",
+    title: "spCRmpuajZCM35qTmpyLjTxMkZackIw=",
+    des: "s5CM35KQkZqbmo2QjN+ak5qci408TJGWnJCM34uNnpuWnJaQkZ6Tmozfno+ejZqcmpHfmpHfnpOYipGQjN+MlouWkIzfjoqa356cmo+LnpHfnI2Wj4uQkpCRmpuejNPfj5qNkN+RkN+MkJHfk57fkZCNkp7fmpGLjZrfk56M35KejZyejN+OiprfmZaYio2ekd+ejoo8UsTfnpuakjxejNPfjIrfm5aMj5CRlp2Wk5abnpvfiZ6NPFKe34yamDxFkd+Tnt+NmpiWPEyR0d+8kJGMlpuajZ7fk57fj42ajJqRnJae35uak9+TkJiQi5aPkN+bmt+Kkd+SkJGam5qNkN+ak5qci408TJGWnJDfnJCSkN+ek5iQ346Kmt+bmp2ajN+Jmo2WmZacno3fmpHfk57fjJqcnJY8TJHfm5rfj56YkIzT35qR35OKmJ6N35ua35uejZOQ34+Qjd+MmpGLnpuQ0Q==",
   },
 ];
 const payoutText = [
   {
-    title: "Active wagering requirement.",
-    des: "An unfinished bonus locks the balance. Check whether forfeiting the bonus releases your deposit.",
+    title: "rZqOipaMlouQ35ua356PipqMi57fnpyLlomQ0Q==",
+    des: "rZqOipaMlouQ35ua356PipqMi57fnpyLlomQ0Q==",
   },
   {
-    title: "Verification request. ",
-    des: "Triggered by amount, cumulative activity or a risk flag. Respond with clear documents; low-quality images are the most common cause of a second round.",
+    title: "rJCTlpyWi4qb35ua34majZaZlpyenJY8TJHR3w==",
+    des: "rJrfnpyLlome35uanZabkN+ek9+Wko+QjYua09+e35Oe356ci5aJlpuem9+enIqSipOem57fkN+e34qRnt+MmjxOnpPfm5rfjZaajJiQ0d+tmoyPkJGbnt+ej5CNi56Rm5Dfm5CcipKakYuQjN+ck56NkIzE35OejN+WkjxemJqRmozfm5rfnZ6Vnt+cnpOWm56b34yQkd+Tnt+cnoqMnt+SPF6M35mNmpyKmpGLmt+bmt+OiprfjJqe35GanJqMno2WkN+Kkd+MmpiKkZuQ35qRiTxSkNE=",
   },
   {
-    title: "Source-of-funds checks. ",
-    des: "At higher amounts, crypto casinos may ask where the crypto came from. Exchange records are the straightforward answer.",
+    title: "qZqNlpmWnJ6clpCRmozfm5qT35CNlpiakd+bmt+TkIzfmZCRm5CM0d8=",
+    des: "r56Nnt+SkJGLkIzfkjxejN+ak5qJnpuQjNPfk5CM35yNlo+LkJyejJaRkIzfj5CbjTxSnpHfj42amIqRi56N34+Qjd+ak9+QjZaYmpHfm5rfk56M35yNlo+LkJKQkZqbnozR37OQjN+NmpiWjIuNkIzfm5rfk57fj5Oei56ZkI2Snt+bmt+WkYuajZyekp2WkN+ckJGMi5aLioaakd+Tnt+NmoyPipqMi57fm5aNmpyLntE=",
   },
   {
-    title: "Withdrawal limits. ",
-    des: "Per-transaction, daily, weekly or monthly caps mean a large balance is paid in instalments.",
-  },
-  {
-    title: "Manual review queues. ",
-    des: "First withdrawals and unusually large ones are routinely reviewed by a person.",
-  },
-  {
-    title: "Address or network errors.",
-    des: "A mismatched network is a player‑side error with no remedy.",
+    title: "szxSkpaLmozfm5rfjZqLlo2Q0d8=",
+    des: "s5CM35M8UpKWi5qM34+Qjd+LjZ6RjJ6cnJY8TJHT35uWno2WkIzT34yakp6RnpOajN+Q35KakYyKnpOajN+Wko+Tlpyekd+OiprfipHfjJ6Tm5DfmpOaiZ6bkN+Mmt+PnpiKmt+akd+cipCLnozR",
   },
   {
     title:
-      "No KYC casinos, no verification and anonymous casinos — three different claims",
-    des: "These phrases get used interchangeably in marketing and they should not be. No KYC at registration means you can open an account and deposit without documents. No verification at withdrawal is a much stronger claim and is conditional at essentially every operator — terms reserve the right to verify. Anonymous is the strongest claim of all, and it is not literally true anywhere: the operator records your IP, device data, email and every wallet address you use.",
+      "s5CM35M8UpKWi5qM34+Qjd+LjZ6RjJ6cnJY8TJHT35uWno2WkIzT34yakp6RnpOajN+Q35KakYyKnpOajN+Wko+Tlpyekd+OiprfipHfjJ6Tm5DfmpOaiZ6bkN+Mmt+Pnpie35qR35yKkIuejNHf",
+    des: "s5CM34+NlpKajZCM342ai5aNkIzT356MPFLfnJCSkN+ejoqak5OQjN+bmt+cip6RizxSnt+WkYqMip6TkpqRi5rfmpOaiZ6bntPfjJCR342aiZaMnpuQjN8df3Qdf3Sbmt+ZkI2Snt+NiouWkZ6Nlp7fj5CN34qRnt+Pmo2MkJGe0Q==",
+  },
+  {
+    title: "uo2NkI2ajN+bmt+blo2anJyWPEyR35Dfm5rfjZqb0Q==",
+    des: "qpGe342am9+ckJHfm5aMnI2aj56RnJaejN+ajN+Kkd+ajY2Qjd+bmpPfk56bkN+bmpPflYqYnpuQjd+OiprfkZDfi5aakZrfjJCTipyWPEyR0Q==",
+  },
+  {
+    title:
+      "vJ6MlpGQjN+MlpHftKa809+MlpHfiZqNlpmWnJ6cljxMkd+G356RPEyRlpKQjMXfi42ajN+Pk56Ri5qekpaakYuQjN+bloyLlpGLkIw=",
+    des: "upHfmpPfPF6SnZaLkN+bmpPfkp6NlJqLlpGY09+ajIuejN+ah4+NmoyWkJGajN+Mmt+Ki5aTloWekd+e35KakYqbkN+bmt+ZkI2Snt+WkYuajZyekp2Wnp2TmtPfnoqRjoqa35GQ35uanZqNPFKe34yajd+ejDxS0d+znt+eioyakZyWnt+bmt+0przf14+NkJyajJDfm5rfiZqNlpmWnJ6cljxMkd+bmt+Wm5qRi5abnpvW35uKjZ6Ri5rfmpPfjZqYloyLjZDfjJaYkZaZlpye346Kmt+ajN+PkIyWnZOa356djZaN34qRnt+cipqRi57fht+Nmp6TloWejd+bmo88TIyWi5CM34yWkd+RmpyajJabnpvfm5rfj42ajJqRi56N35uQnIqSmpGLkIzR36+Qjd+Qi42Q35Oem5DT35Oe356Zlo2SnpyWPEyR35ua346Kmt+RkN+ah5aMi5rfiZqNlpmWnJ6cljxMkd+ek9+SkJKakYuQ35ua342ai5aNno3fmZCRm5CM35qM35KKnJeQ35I8XozfnJCRi4qRm5qRi5rE34yWkd+akp2ejZiQ09+akd+PjTxenIuWnJ6SmpGLmt+LkJuQjN+TkIzfkI+ajZ6bkI2ajN+ajIs8Xt+MipWai57fnt+ckJGblpyWkJGajNPfhp7fjoqa34yKjN+LPFaNkpaRkIzfht+ckJGblpyWkJGajN+Mmt+NmoyajYmekd+ak9+bmo2anJeQ35ua342anpOWhZ6N34majZaZlpyenJaQkZqM0d+6k9+LPFaNkpaRkN89VJ6RPEyRlpKQPUTfmozfk57fnpmWjZKenJY8TJHfkjxejN+NkIuKkZue35ua34uQm56M09+Pmo2Q35GQ35qM35qMi42WnIuekpqRi5rfnJaajYue35qR35GWkZg8RZHfnJ6MkMXfmpPfkI+ajZ6bkI3fjZqYloyLjZ7fi4rfm5aNmpycljxMkd+2r9Pfk5CM35uei5CM35ua34uK35uWjI+QjJaLlomQ09+Lit+ckI2NmpDfmpOanIuNPEyRlpyQ34bfi5Cbnozfk56M35uWjZqcnJaQkZqM35ua35KQkZqbmo2Q346Kmt+Ki5aTlpyajNE=",
   },
 ];
 
 export const mainText = {
   top: {
     title:
-      "Best Crypto casinos reviewed: ten crypto casino sites assessed in rank order",
-    des: "Each review below leads with what matters for this page — anonymity and verification posture, coin support, payout mechanics and the real conditions attached to the headline offer. Ratings are our editorial scores. They are judgements formed from published information, not independently audited performance figures. The meta tables give a quick reference profile of each brand; figures in them are our working estimates where the operator does not publish a number, and should be treated as orientation, not contract terms.",
+      "s5CM35KalZCNmozfnI2Wj4uQnJ6MlpGQjN+ekZ6TloWem5CMxd+blpqF34yWi5aQjN+bmt+cjZaPi5CcnoyWkZCM35qJnpOKnpuQjN+PkI3fkI2bmpHfm5rfnJOejJaZlpyenJY8TJE=",
+    des: "vJ6bnt+NmoyaPE6e346Kmt+ej56Nmpya357fnJCRi5aRip6cljxMkd+ckJKWmpGFnt+bmoyLnpyekZuQ35OQjN+ejI+anIuQjN+ck56Jmt+Pno2e35qMi57fjzxemJaRnsXfmpPfkZaJmpPfm5rfnpGQkZaSnouQ34bfk5CM34+NkJyam5aSlpqRi5CM35ua34majZaZlpyenJY8TJHT35OejN+cjZaPi5CSkJGam56M356bkpaLlpuejNPfk57fkpqcPF6Rlpye35ua35OQjN+PnpiQjN+G35OejN+ckJGblpyWkJGajN+Nmp6TmozfnoyQnJaem56M357fk57fkJmajYue34+NlpGclo+ek9Hfs56M34mek5CNnpyWkJGajN+Nmo+NmoyakYuekd+RipqMi42e34+KkYuKnpyWPEyR35qblouQjZaek8TfjJrfi42ei57fm5rflYqWnJaQjN+dnoyem5CM3x1/dB1/dJqR35aRmZCNkp6cljxMkd+Pip2Tlpyem57T35GQ35ua35yWmY2ejN+bmt+NmpGblpKWmpGLkN+eipuWi56bnozfm5rfmZCNkp7flpGbmo+akZuWmpGLmtHfs56M34uenZOejN+NmoyKkpqR35CZjZqcmpHfipHfj5qNmZaT35ua342amZqNmpGclp7fjTxej5abnt+bmt+cnpue35KejZyexN+TnozfnJaZjZ6M346Kmt+ZlpiKjZ6R35qR35qTk56M34yQkd+ajIuWkp6clpCRmozfj42Qj5aejN8df2uKi5aTloWem56M35yKnpGbkN+ak9+Qj5qNnpuQjd+RkN+PjZCPkI2clpCRnt+Kkd+bnouQ35CZlpyWnpMdf2vfht+bmp2akd+LkJKejYya35yQkpDfkI2WmpGLnpyWPEyR09+RkN+ckJKQ35yQkZuWnJaQkZqM35yQkYuNnpyLip6TmozR",
   },
   howWork: {
     title:
-      "The Ultimate Guide to Premier Crypto Casinos: Innovation, Benefits, and Expert Insights",
-    des: "Our primary mission is to help you discover the most rewarding and technologically advanced platforms in the digital gaming space. We have built a comprehensive, independent hub that simplifies your search for top-tier crypto casinos worldwide. By partnering directly with leading industry operators, we are able to secure exclusive welcome packages, high-value deposit matches, and unique promotional codes designed to give you the perfect head start. We focus entirely on platforms that operate under recognized international gaming licenses, including jurisdictions such as Curaçao and Anjouan. These regulatory frameworks ensure that the featured casinos adhere to global standards of fairness, data security, and transparency. This offshore licensing model allows players from various regions to enjoy a massive catalog of certified slots, live dealer games, and cutting-edge betting features seamlessly. To save you time, our team conducts continuous market monitoring and updates our recommendations monthly. Every review and comparison on our site is grounded in an in-depth analysis of official operator terms, verified licensing status, and promotional guidelines. We consolidate all essential details into easy-to-read guides so you can evaluate features instantly and choose the ideal platform that aligns with your gaming preferences. Embracing digital assets for online gaming unlocks unparalleled advantages that traditional online casinos simply cannot match. By utilizing cryptocurrency, you enjoy complete financial privacy without ever needing to share sensitive bank details or personal credentials. Furthermore, transactions are highly efficient, processing deposits and withdrawals within minutes rather than days. For those seeking absolute predictability, the integration of stablecoins like USDT and USDC completely eliminates market fluctuations, allowing you to focus entirely on your entertainment.",
+      "s57fmIo8Up7fm5qZlpGWi5aJnt+MkJ2Nmt+TkIzfkpqVkI2ajN+cjZaPi5CcnoyWkZCMxd+WkZGQiZ6cljxMkdPfiZqRi56Vnozfht+Pmo2Mj5qci5aJnozfm5rfmoePmo2LkIw=",
+    des: "sYqajIuNnt+SloyWPEyR34+NlpGclo+ek9+ajN+ehoqbno2Lmt+e35uajJyKnY2Wjd+Tnozfj5Oei56ZkI2SnozfkjxejN+YjZ6LlpmWnJ6Ri5qM34bfi5qckZCTPEyYlpyekpqRi5rfnomekYWem56M35qR35qT3zxekp2Wi5Dfm5rfk5CM35WKmpiQjN+blpiWi56TmozR37eakpCM35yNmp6bkN+Kkd+cmpGLjZDflpGLmpiNnpPfmt+WkZuaj5qRm5aakYua346Kmt+MlpKPk5aZlpye34uK3508RYyOipqbnt+bmt+cjZaPi5CcnoyWkZCM35ua34+NlpKajd+Rlomak9+akd+LkJuQ35qT35KKkZuQ0d+4jZ6clp6M357fkYqajIuNnozfnpOWnpGFnozfm5aNmpyLnozfnJCR35OQjN+PjZaRnJaPnpOajN+Qj5qNnpuQjZqM35uak9+MmpyLkI3T34+Qm5qSkIzfkJmNmpyajYua34+ejoqai5qM35ua352WmpGJmpGWm57fmoeck4qMlomQjNPfnZCRkIzfj5CN35uajzxMjJaLkN+bmt+YjZ6R34mek5CN34bfnDxMm5aYkIzfj42QkpCclpCRnpOajN88RZGWnJCM09+bloyaPE6em5CM34+ejZ7fnY2WkZuejYua35qT35KalZCN35yQkpaakYWQ34+QjJadk5rR37GQjN+cmpGLjZ6SkIzfmoeck4qMlomekpqRi5rfmpHfj5Oei56ZkI2Snozfjoqa35CPmo2ekd+dnpWQ35OWnJqRnJaejN+bmt+VipqYkN+WkYuajZGenJaQkZ6TmozfjZqckJGQnJabnozT35aRnJOKhpqRm5DflYqNloyblpyclpCRmozfnJCSkN+8io2ehZ6Q34bfvpGVkIqekdHfuoyLkIzfkp6NnJCM342amIqTnouQjZaQjN+Yno2ekYuWhZ6R346Kmt+TkIzfnJ6MlpGQjN+bmoyLnpyem5CM35yKko+TnpHfnJCR35OQjN+ajIs8XpGbno2ajN+Yk5CdnpOajN+bmt+ajoqWm56b09+MmpiKjZabnpvfm5rfm56LkIzfht+LjZ6RjI+ejZqRnJae0d+6jIua35KQm5qTkN+bmt+TlpyakZyWnozflpGLmo2RnpyWkJGek5qM34+ajZKWi5rfjoqa35WKmJ6bkI2ajN+bmt+blomajYyejN+NmpiWkJGajN+bloyZjYqLmpHT34yWkd+ckJKPk5acnpyWkJGajNPfm5rfipHfnpKPk5aQ35yeizxek5CYkN+bmt+LjZ6YnpKQkZqbnozfnJqNi5aZlpyem56M09+VipqYkIzfnJCR35yNio+Wmo3fmpHfiZaJkN+G35mKkZyWkJGajN+bmt+ej4qajIuejN+bmt+JnpGYip6Nm5ae0d+vno2e356XkI2Nno2Lmt+LlpqSj5DT35GKmoyLjZDfmo6Klo+Q35KQkZaLkI2ant+ak9+Smo2cnpuQ35ua35mQjZKe35yQkYuWkYqe34bfnpyLip6TloWe35GKmoyLjZ6M342anJCSmpGbnpyWkJGajN+cnpue35KajNHfvJ6bnt+NmoyaPE6e34bfnJCSj56NnouWiZ7fmpHfkYqajIuNkN+MlouWkN+Mmt+dnoye35qR34qR356RPF6TloyWjN+ah5eeioyLlomQ35ua35OQjN+LPFaNkpaRkIzfkJmWnJaek5qM35ua35OQjN+Qj5qNnpuQjZqM09+ak9+ajIuem5DfiZqNlpmWnJ6bkN+bmt+Miozfk5acmpGclp6M34bfk56M35yQkZuWnJaQkZqM35ua34yKjN+PjZCSkJyWkJGajNHfrZqckI+Wk56SkIzfi5Cbnt+Tnt+WkZmQjZKenJY8TJHfmoyakZyWnpPfmpHfmIo8Up6M35k8XpyWk5qM35ua35Oamo3T34+ejZ7fjoqa34+KmpuejN+aiZ6Tip6N35OejN+cno2enIuajTxSjIuWnJ6M356T35aRjIuekYua34bfmpOamJaN35Oe34+TnouemZCNkp7flpuanpPfjoqa35KalZCN34ya356bno+Lmt+e34uKjN+PjZqZmo2akZyWnozfm5rflYqamJDR37qT34qMkN+bmt+enIuWiZCM35uWmJaLnpOajN+akd+TkIzflYqamJCM35qR35M8UpGant+QmY2anJrfiZqRi56VnozflpGWmIqek56dk5qM346Kmt+TkIzfnJ6MlpGQjN+LjZ6blpyWkJGek5qM34yWko+TmpKakYua35GQ34+Kmpuakd+WmIqek56N0d++k9+Ki5aTloWejd+cjZaPi5CSkJGam56M09+bloyZjYqLnozfm5rfipGe34uQi56T34+NlomenJabnpvfmZaRnpGclpqNntPfjJaR35GanJqMlpuem9+bmt+ckJKPno2Llo3fm56LkIzfnZ6RnJ6NlpCM35yQkZmWm5qRnJaek5qM35GW35aRmZCNkp6cljxMkd+Pmo2MkJGek9HfvpuakjxejNPfk56M34uNnpGMnpyclpCRmozfjJCR356Ti56SmpGLmt+amZaclpqRi5qMxd+TkIzfm5qPPEyMlouQjN+G342ai5aNkIzfjJrfj42QnJqMnpHfmpHfnIqajIuWPEyR35ua35KWkYqLkIzT35qR35OKmJ6N35ua35s8Up6M0d+vno2e346KlpqRmozfnYqMnJ6R34qRnt+ajIuenZaTlpuem9+enYyQk4qLntPfk57flpGLmpiNnpyWPEyR35ua35KQkZqbnozfmoyLnp2Tmozf19WMi56dk5qckJaRjNXW35yQkpDfqqy7q9+G36qsu7zfmpOWkpaRnt+PkI3fnJCSj5Oai5Dfk56M35mTipyLip6clpCRmozfm5qT35KajZyem5DT34+ajZKWi5Y8VpGbkIua35yQkZyakYuNno2Lmt+ah5yTioyWiZ6SmpGLmt+akd+Lit+akYuNmouakZaSlpqRi5DR",
   },
   bestOnline: {
-    title: "Best crypto casinos versus traditional online casinos",
+    title:
+      "s5CM35KalZCNmozfnI2Wj4uQnJ6MlpGQjN+ZjZqRi5rfnt+TkIzfnJ6MlpGQjN+akd+TPFKRmp7fi42em5aclpCRnpOajA==",
     payments: {
-      title: "Cryptocurrency payments",
-      des: "At a fiat casino you enter card details and the transaction travels through the card network. The casino never touches your money directly, the bank sees a gambling merchant code, and some US banks decline those transactions outright. At an online crypto casino, you push a transaction from your wallet to an address. No intermediary approves or declines it, and no bank statement line identifies the recipient as a casino. Network fees replace card fees, and they vary by chain and congestion rather than by a fixed merchant rate.This is a difference in mechanism, not automatically an improvement. On-chain finality cuts both ways: no one can reverse a fraudulent charge on your behalf either.",
+      title: "r56YkIzfnJCR35yNlo+LkJKQkZqbnow=",
+      des: "upHfipHfnJ6MlpGQ346Kmt+Qj5qNnt+ckJHfkpCRmpue35mWm4qclp6Nlp7T35aRi42Qm4qcmozfk5CM35uei5CM35ua34uK34uejZWai57fht+Tnt+LjZ6RjJ6cnJY8TJHfjJrfj42QnJqMnt+e34uNnok8Vozfm5rfk57fjZqb35ua34uejZWai56M0d+6k9+cnoyWkZDfkYqRnJ7fmJqMi5aQkZ7fi4rfm5aRmo2Q35uWjZqci56SmpGLmsTfmpPfnZ6RnJDflpuakYuWmZacnt+Kkd+cPEyblpiQ35ua35yQkpqNnJaQ342ak56clpCRnpuQ35yQkd+ak9+VipqYkN+G09+akd+ek5iKkZCM35yejJCM09+TkIzfnZ6RnJCM35qMi56bkIqRlpuakYyajN+NmpyXnoWekd+ajIuejN+LjZ6RjJ6cnJaQkZqM35ua34+TnpGQ0d+6kd+Kkd+cjZaPi5CcnoyWkZDfmpHfkzxSkZqe09+akYk8Up6M34qRnt+LjZ6RjJ6cnJY8TJHfm5qMm5rfi4rfkpCRmpuajZDfnt+KkZ7fm5aNmpycljxMkd+ajI+anDxSmZacntHfsZDfl56G35aRi5qNkpqblp6NlpCM346Kmt+ej42Kmp2akd+Q342anJeenJqR35Oe35CPmo2enJY8TJHT34bfmpHfmpPfmoeLjZ6ci5DfnZ6RnJ6NlpDfkZDfno+ejZqcmt+RlpGYipGe342amZqNmpGclp7fjoqa35abmpGLlpmWjoqa356T35uajIuWkZ6Lno2WkN+ckJKQ34qR35yejJaRkNHfupHfk4qYno3fm5rfk56M35yQkpaMlpCRmozfm5rfk56M34uejZWai56M09+ah5aMi5qR35yQkpaMlpCRmozfm5rfjZqb09+OiprfiZ6NPFKekd+Mmpg8RZHfk57fnJ6bmpGe35ua352TkI6Kmozfht+Mit+Rlomak9+bmt+ckJGYmoyLljxMkdPfmpHfk4qYno3fm5rfnZ6Mno2Mmt+akd+KkZ7fi56Nlpme35mWlZ7fmoyLnp2TmpyWm57fj56Nnt+ak9+ckJKajZyWkNHfrJrfi42ei57fm5rfipGe35uWmZqNmpGclp7fmpHfmpPfkpqcnpGWjJKQ09+TkN+cip6T35GQ35aSj5OWnJ7fkZqcmoyejZaekpqRi5rfipGe35KalZCNntHfs57fm5qZlpGWi5aJlpuem9+bmt+Tnozfi42ekYyenJyWkJGajN+akd+Tnt+cnpuakZ7fm5rfnZOQjoqajN+LlpqRmt+KkZ7fm5Cdk5rfnJ6NnsXfi56Sj5CckN+ajN+PkIyWnZOa342aiZqNi5aN34qR35yejZiQ35mNnoqbipOakYuQ35qR34uK35GQkp2NmtE=",
     },
     kyc: {
-      title: "KYC and account verification",
-      des: "Fiat casinos in regulated markets verify identity as a licensing condition — usually before or shortly after the first deposit. Many crypto casinos defer or reduce that step, which is why no KYC casino and no verification casinos are such heavily searched phrases. The realistic position: reduced verification at registration is common; a permanent guarantee of no checks is not. Crypto casinos reserve the right to request documents when thresholds, risk flags or sanctions screening require it, and those rights are written into the terms you accept.",
+      title: "tKa834bfiZqNlpmWnJ6cljxMkd+bmt+cipqRi54=",
+      des: "s5CM35yejJaRkIzfjoqa35CPmo2ekd+ckJHfkpCRmpue35mWm4qclp6Nlp7fmpHfkpqNnJ6bkIzfjZqYipOem5CM34majZaZlpyekd+Tnt+Wm5qRi5abnpvfm5rfk5CM34qMip6NlpCM35yQkpDfjZqOipaMlouQ34+ejZ7fkJ2LmpGajd+Mit+TlpyakZyWnsTfj5CN35OQ35iakZqNnpPT35qMi5DfkJyKjY2a356Ri5qM35Dfj5CckN+bmoyPijxWjN+bmt+Nmp6TloWejd+ak9+PjZaSmo3fm5qPPEyMlouQ0d+yipyXkIzfnI2Wj4uQnJ6MlpGQjN+PkIyPkJGakd+Q34yWko+TlpmWnJ6R35qMi5rfj56MkNPfjZ6FPEyR34+Qjd+Tnt+cip6T34s8Vo2SlpGQjN+ckJKQ3z1UnJ6MlpGQ34yWkd+0prw9RN+Q3z1UnJ6MlpGQ34yWkd+Jmo2WmZacnpyWPEyRPUTfjJCR35CdlZqLkN+bmt+dPEWMjoqam56M35mNmpyKmpGLmozR37Oe342anpOWm56b35qM346KmtPfjJbfnZaakd+ajN+Xnp2Wi4qek9+OiprfmpPfj42QnJqMkN+bmt+Jmo2WmZacnpyWPEyR34yant+SPF6M34yakZyWk5OQ35uKjZ6Ri5rfmpPfjZqYloyLjZDT35GQ35qHloyLmt+KkZ7fmJ6NnpGLPFKe34+ajZKekZqRi5rfm5rfjoqa35GKkZye34ya342anpOWhZ6NPF6R35yQko+NkJ2enJaQkZqM0d+zkIzfnI2Wj4uQnJ6MlpGQjN+Mmt+NmoyajYmekd+ak9+bmo2anJeQ35ua34yQk5aclouejd+bkJyKkpqRi56cljxMkd+cip6Rm5DfjJrfnpOcnpGFnpHfnJaajYuQjN+Kkp2NnpOajNPfjIqNmJqR35aRm5acnpuQjZqM35ua342WmoyYkN+Q35qM35GanJqMno2WkN+Nmp6TloWejd+Kkd+ckJGLjZCT35ua34yekZyWkJGajMTfmoyLnozfmZ6cipOLnpuajN+ajIs8XpHfmoyLlo+Kk56bnozfmpHfk5CM34s8Vo2SlpGQjN+G35yQkZuWnJaQkZqM346Kmt+ak9+KjIqejZaQ356cmo+LntE=",
     },
-    bonus: {
-      title: "Bonuses at Bitcoin casinos",
-      des: "Crypto casino promotions skew differently from fiat ones. Rakeback, instant cashback and VIP tiers are far more prominent, and several brands on this page lead with them instead of a deposit match. That reflects the audience: high-frequency originals players generate volume, and volume-based rewards fit better than a one-off match. Wagering requirements at crypto casino sites are not automatically lower than at fiat sites — compare the multiple, the contribution table and the cap, not the headline.",
+    gift: {
+      title: "vTxMkYqMno3fPF7fvZaLnJCWkdKMj5aTnok8UouKkg==",
+      des: "bSGkZGWkZiejd88Xt+bipONlouKkZ6N34yPlpOeiTxSi4qS35qNit88STxPjYqJPFKMlt+akd88Xt+Xmpk8T52KkZuRipLfmI2aljxPjJOKkpY8T5OKktHfrZ6Ump2enJTT34uemZ6Nk56KjN+akZuKjZiNmpY8T4yTnt+QmN+ptq/SjIuWmN+ajYrfkoqR3zxenZqNnpGblt+QmN+RkJSUio3fiTxJjYqSmo2Ult88Xt88QZqMjJ6Nlt+MPFI8T4rfmo2K3zxenZqNnpGblt+SmjxP3zxBmpaS3zxS34yLnjxP35aRkZOamJiM0d88YZ48T9+akZuKjYyPmpiTno3fkp6NlJc8TI+WkZHF34s8UjxPlo3fio+Pl56Zk5qYlo3fjI+Wk56Nno3fjJSej57fipKZnpGY35CY34qSnYqR352GmJg8T988Xt+KkpmekZiW35eakYuejd+dmouKjd+akd+alpGMlJaPi5aM34yekoyJPEmNipHR36maPE+UjTxJmYqN3zxe34mamYw8UjxPipLfm4qTjZaLipGejd+Mj5aTnok8Uoue35qNit+alJSW34yVPF6TmZSNnpme35M8WZiNlt+akd88Xt+Xmpk8T52KkZuRipLfmI2aljxPjJOKkpY8T5OKkt/S352ajTxPit+MnpKekd+Sno2YmZqTm5Y8T9PfmY2ekpOemIyLPEmZk4qRnt+QmN+XPF6Sno2UljxP09+alJSW35mGjZaNjDxJmJGWkZ7R3Q==",
     },
   },
   assed: {
-    title: "How we assessed these top crypto casinos",
-    des: "The ranking reflects a consistent set of checks applied to published information. We did not deposit or withdraw, so this is documentary assessment, not a payout trial. Here is what we looked at and why each criterion matters",
+    title:
+      "bw8TJKQ35qJnpOKnpKQjN+ajIuQjN+cnoyWkZCM35ua35yNlo+LkJKQkZqbnozfm5qMi56cnpuQjN0=",
+    des: "s57fnJOejJaZlpyenJY8TJHfjZqZk5qVnt+KkZ7fjJqNlprfm5rfnJCSj42QnZ6clpCRmozfjJaMi5qSPF6LlpyejN+ej5OWnJ6bnozfnt+Tnt+WkZmQjZKenJY8TJHfj4qdk5acnpue0d+xkN+Nmp6TloWekpCM35uajzxMjJaLkIzfkZbfjZqLlo2QjNPfj5CN35OQ346Kmt+Mmt+LjZ6Lnt+bmt+KkZ7fmomek4qenJY8TJHfm5CcipKakYuek9+G35GQ35ua34qRnt+PjYqanZ7fm5rfj56YkIzR377fnJCRi5aRip6cljxMkdPfm5qLnpOTnpKQjN+TkIzfnoyPmpyLkIzfjoqa356RnpOWhZ6SkIzfht+Tnt+Wko+QjYuekZyWnt+bmt+cnpue35yNlouajZaQ0Q==",
     text: [...assedText],
   },
   metod: {
-    title: "Crypto casino payment methods: coins wallets and the fiat options",
+    title:
+      "bI8VouQm5CM35ua34+emJDfmpHfnI2Wj4uQnJ6MlpGQjMXfkpCRmpuajZCM35ua35yNlo+LkJKQkZqbnozfht+Qj5yWkJGajN+akd+SkJGam57fmZabipyWno2Wnt0=",
     text: [...metodText],
   },
   payout: {
     title:
-      "Withdrawals, KYC and restrictions: what actually delays a crypto payout",
-    des: "Separate the two clocks. Approval time is the casino deciding to release funds — automated for small amounts at many sites, manual above a threshold. Settlement time is the blockchain confirming the transaction once broadcast, usually minutes. Crypto casinos advertise the second number and players experience the first. When a payout is slow, it is almost never the chain.",
-    des1: "The usual causes of delay, in rough order of frequency:",
+      "a2ai5aNkIzT37SmvN+G342ajIuNlpyclpCRmozF346KPFbfmozfk5Dfjoqa342anpOSmpGLmt+NmouNnoye34qR34+emJDfmpHfnI2Wj4uQkpCRmpuejN0=",
+    des: "buWjIuWkZiKmt+akYuNmt+TkIzfm5CM34+TnoWQjNHfupPfi5aako+Q35ua356PjZCdnpyWPEyR35yQjY2ajI+QkZua357fk57fm5qcloyWPEyR35uak9+cnoyWkZDfm5rfk5admo2ejd+TkIzfmZCRm5CMxN+akd+SipyXkIzfjJaLlpCM09+ajIua34+NkJyajJDfmozfnoqLkJI8XouWnJDfj56Nnt+Wko+QjYuajN+Pmo6KmjxOkIzT35KWmpGLjZ6M346Kmt+Pno2e35yekYuWm56bmozfjoqa34yKj5qNnpHfipHfnJaajYuQ34qSnY2ek9PfjJrfjZqek5aFnt+bmt+ZkI2Snt+SnpGKnpPR37qT34uWmpKPkN+bmt+Tlo6KlpuenJY8TJHfmozfmpPfj5qNlpCbkN+Oiprfi56Nm57fk57fnJ6bmpGe35ua352TkI6Kmozf152TkJyUnJeelpHW35qR35yQkZmWjZKejd+Tnt+LjZ6RjJ6cnJY8TJHfipGe34mahd+akpaLlpue09+TkN+cip6T34yKmpOa35OTmomejd+KkZCM35KWkYqLkIzR37OQjN+cjZaPi5CcnoyWkZCM34yKmpOakd+ekYqRnJaejd+ak9+MmpiKkZuQ34+TnoWQ09+Pmo2Q35OQjN+Vipiem5CNmozfmoePmo2WkpqRi56R35qT34+NlpKajZDR37yKnpGbkN+Kkd+PnpiQ34ya35uakpCNntPfnJ6Mlt+RipGcnt+Mmt+bmp2a357fk57fnJ6bmpGe35ua352TkI6KmozR3dPf39/f35uajM7F392znozfnJ6KjJ6M35eenZaLip6Tmozfm5rfjZqLjZ6MkNPfmpHfkI2bmpHfno+NkIeWkp6bkN+bmt+ZjZqcipqRnJaexd0=",
     text: [...payoutText],
   },
   questions: {
-    title: "Crypto Casinos Questions Answered",
+    title:
+      "cydiqiVtoqolKWWtJKL1J6UpoqxkovUq5S2hZmSyryyzMvUq5GQqK6VsbeZio+vmZbKnp6UkNSuzMqKnszKya+VpbybkY+GqK+6hq3MyoaulabNnpW21K6UpYqezMrImZTKyJmSyo6ck5CGqK+6hq3MyoqelMbUnJGQhqiUpbuZksqNmZTKnpuSkM2alZvUq5S2hZmSpbytksq8soex1J6Um9Sslo+Gp5S2hZmVtZ6zk4+8ss/G1J6VtoqezMvUsZS1hp6VtbuZkpCFmZGQjrOUtbbHp5CKqJG1u5mVysmxkYvUqJSQ1K6VpoqelbHUr5KQybSSlYewlLaFq8zKtKiSj7izlaXJsszLybSSi9SvkZDNmszKhpqUpoqoksrJnZKQhZmVkI6ezMuGtJXKjrGRj7eZlo+3mZG1np6VpoquzMuOrJGmzZqUxq+ZlbWNmZWljpqUyp65kYvUnZKL1KWUts2skYvUrJGPuLSRj6+tzMiOq8zLiqiSj7SvlLHUnZKL1KuTkMm0k4+KmpG1psertbeZkpCFmZKPr5mVyo6xk4+8nZSx1LCWj42ZlsrJsZLKyJmUysiZkbXJnZKPuJrMyoqezMrNq5S2ybSSkIWZzsrNq5S1hqqRtZqak4+3qMzKjq3MyoaulKWSqJWltJqVm9SrkYvUs5Wlya2VtcmckbWmx6u1t5mWj7iazMuSnpeb1J6Uj56zk4+Kms/G1KuUsdSclo/Jq8zLhrSSj7CezMqwq5KQkpqVm9S0lKW8sszKtKiUpo6zlLaFrczIsK6VsdSclaWer5bKvJyRkIaolKW8sszLhrSSj7CelJvUmpSmjq2RtZ6alZvUnpTG1LKSj5a0lKWKrszL1KuRkKiuz8bUr5KQza7MyrCulbHUqZaPlpqSyryxkpCFmZKQmq+SkM2olI+OrZbKya3Myo6rzMvUsZOPtJ6VpbutzMiGtJGPuJ2UsdS0lJvUr5GPlq7My4aezMqKnpSPvLGRi6+ZkbXJspOL1K2Wj7ickYvUspKL1J2Sj82ezMrImZTKyJmRtcmdko+4mszKip7Mys2rlLbJtJKQha3Mm6+ZzMbQmczKip6Vssi5zMbNhZGQhZmRtcm0lbXJsszKmpqRpZ6zlo/Jq5KQhZmSyo2ZlaWOs5WlybKUsa+Zko+3mZS2zZ2Sj7eZkZDUsZS2mqiUj8mdlLHUnZKL1KWVpY6clo+OrZG1npqHm8/C3Q==",
     questions: [...questionsAnswer],
   },
 };
