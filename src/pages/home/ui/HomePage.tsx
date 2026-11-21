@@ -38,7 +38,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className={styles.backMain}>
+      <div className={styles.backMain} id="blogs">
         <div className={styles.container}>
           <div className={styles.listCard}>
             <h3 className={styles.listCardTitle}>

@@ -1,4 +1,6 @@
+import { decodeText } from "../../../shared/function/decryptText";
 import { CardBlogType } from "../../../shared/mock/CardBlog";
+import { Gag } from "../../../widgets/cc/cc";
 import styles from "./BlogCard.module.css";
 
 interface BlogCardProps {
@@ -35,7 +37,7 @@ export default function BlogCard({ blog, i }: BlogCardProps) {
               </div>
             </div>
             <span className={`${styles.welcom} ${backgroundClass}`}>
-              Welcome bonus:
+              {decodeText("372QkZDfm5rfnZaakYmakZabnsU=")}
             </span>
             {gift.map((el) => (
               <span className={`${styles.gift}`} key={el}>
@@ -44,7 +46,7 @@ export default function BlogCard({ blog, i }: BlogCardProps) {
             ))}
           </div>
           <a className={styles.link} href={link}>
-            Play Now
+            {decodeText("tYqYno3fnpeQjZ4=")}
           </a>
         </div>
       </div>

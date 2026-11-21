@@ -149,24 +149,23 @@ export const mainText = {
   },
   assed: {
     title:
-      "bw8TJKQ35qJnpOKnpKQjN+ajIuQjN+cnoyWkZCM35ua35yNlo+LkJKQkZqbnozfm5qMi56cnpuQjN0=",
+      "vDxMkpDfmomek4qekpCM35qMi5CM35yejJaRkIzfm5rfnI2Wj4uQkpCRmpuejN+bmoyLnpyem5CM",
     des: "s57fnJOejJaZlpyenJY8TJHfjZqZk5qVnt+KkZ7fjJqNlprfm5rfnJCSj42QnZ6clpCRmozfjJaMi5qSPF6LlpyejN+ej5OWnJ6bnozfnt+Tnt+WkZmQjZKenJY8TJHfj4qdk5acnpue0d+xkN+Nmp6TloWekpCM35uajzxMjJaLkIzfkZbfjZqLlo2QjNPfj5CN35OQ346Kmt+Mmt+LjZ6Lnt+bmt+KkZ7fmomek4qenJY8TJHfm5CcipKakYuek9+G35GQ35ua34qRnt+PjYqanZ7fm5rfj56YkIzR377fnJCRi5aRip6cljxMkdPfm5qLnpOTnpKQjN+TkIzfnoyPmpyLkIzfjoqa356RnpOWhZ6SkIzfht+Tnt+Wko+QjYuekZyWnt+bmt+cnpue35yNlouajZaQ0Q==",
     text: [...assedText],
   },
   metod: {
     title:
-      "bI8VouQm5CM35ua34+emJDfmpHfnI2Wj4uQnJ6MlpGQjMXfkpCRmpuajZCM35ua35yNlo+LkJKQkZqbnozfht+Qj5yWkJGajN+akd+SkJGam57fmZabipyWno2Wnt0=",
+      "sjxWi5CbkIzfm5rfj56YkN+akd+cjZaPi5CcnoyWkZCMxd+SkJGam5qNkIzfm5rfnI2Wj4uQkpCRmpuejN+G35CPnJaQkZqM35qR35KQkZqbnt+ZlpuKnJaejZae",
     text: [...metodText],
   },
   payout: {
     title:
-      "a2ai5aNkIzT37SmvN+G342ajIuNlpyclpCRmozF346KPFbfmozfk5Dfjoqa342anpOSmpGLmt+NmouNnoye34qR34+emJDfmpHfnI2Wj4uQkpCRmpuejN0=",
+      "rZqLlo2QjNPftKa834bfjZqMi42WnJyWkJGajMXfjoo8Vt+ajN+TkN+OiprfjZqek5KakYua342ai42ejJ7fipHfj56YkN+akd+cjZaPi5CSkJGam56M",
     des: "buWjIuWkZiKmt+akYuNmt+TkIzfm5CM34+TnoWQjNHfupPfi5aako+Q35ua356PjZCdnpyWPEyR35yQjY2ajI+QkZua357fk57fm5qcloyWPEyR35uak9+cnoyWkZDfm5rfk5admo2ejd+TkIzfmZCRm5CMxN+akd+SipyXkIzfjJaLlpCM09+ajIua34+NkJyajJDfmozfnoqLkJI8XouWnJDfj56Nnt+Wko+QjYuajN+Pmo6KmjxOkIzT35KWmpGLjZ6M346Kmt+Pno2e35yekYuWm56bmozfjoqa34yKj5qNnpHfipHfnJaajYuQ34qSnY2ek9PfjJrfjZqek5aFnt+bmt+ZkI2Snt+SnpGKnpPR37qT34uWmpKPkN+bmt+Tlo6KlpuenJY8TJHfmozfmpPfj5qNlpCbkN+Oiprfi56Nm57fk57fnJ6bmpGe35ua352TkI6Kmozf152TkJyUnJeelpHW35qR35yQkZmWjZKejd+Tnt+LjZ6RjJ6cnJY8TJHfipGe34mahd+akpaLlpue09+TkN+cip6T34yKmpOa35OTmomejd+KkZCM35KWkYqLkIzR37OQjN+cjZaPi5CcnoyWkZCM34yKmpOakd+ekYqRnJaejd+ak9+MmpiKkZuQ34+TnoWQ09+Pmo2Q35OQjN+Vipiem5CNmozfmoePmo2WkpqRi56R35qT34+NlpKajZDR37yKnpGbkN+Kkd+PnpiQ34ya35uakpCNntPfnJ6Mlt+RipGcnt+Mmt+bmp2a357fk57fnJ6bmpGe35ua352TkI6KmozR3dPf39/f35uajM7F392znozfnJ6KjJ6M35eenZaLip6Tmozfm5rfjZqLjZ6MkNPfmpHfkI2bmpHfno+NkIeWkp6bkN+bmt+ZjZqcipqRnJaexd0=",
     text: [...payoutText],
   },
   questions: {
-    title:
-      "cydiqiVtoqolKWWtJKL1J6UpoqxkovUq5S2hZmSyryyzMvUq5GQqK6VsbeZio+vmZbKnp6UkNSuzMqKnszKya+VpbybkY+GqK+6hq3MyoaulabNnpW21K6UpYqezMrImZTKyJmSyo6ck5CGqK+6hq3MyoqelMbUnJGQhqiUpbuZksqNmZTKnpuSkM2alZvUq5S2hZmSpbytksq8soex1J6Um9Sslo+Gp5S2hZmVtZ6zk4+8ss/G1J6VtoqezMvUsZS1hp6VtbuZkpCFmZGQjrOUtbbHp5CKqJG1u5mVysmxkYvUqJSQ1K6VpoqelbHUr5KQybSSlYewlLaFq8zKtKiSj7izlaXJsszLybSSi9SvkZDNmszKhpqUpoqoksrJnZKQhZmVkI6ezMuGtJXKjrGRj7eZlo+3mZG1np6VpoquzMuOrJGmzZqUxq+ZlbWNmZWljpqUyp65kYvUnZKL1KWUts2skYvUrJGPuLSRj6+tzMiOq8zLiqiSj7SvlLHUnZKL1KuTkMm0k4+KmpG1psertbeZkpCFmZKPr5mVyo6xk4+8nZSx1LCWj42ZlsrJsZLKyJmUysiZkbXJnZKPuJrMyoqezMrNq5S2ybSSkIWZzsrNq5S1hqqRtZqak4+3qMzKjq3MyoaulKWSqJWltJqVm9SrkYvUs5Wlya2VtcmckbWmx6u1t5mWj7iazMuSnpeb1J6Uj56zk4+Kms/G1KuUsdSclo/Jq8zLhrSSj7CezMqwq5KQkpqVm9S0lKW8sszKtKiUpo6zlLaFrczIsK6VsdSclaWer5bKvJyRkIaolKW8sszLhrSSj7CelJvUmpSmjq2RtZ6alZvUnpTG1LKSj5a0lKWKrszL1KuRkKiuz8bUr5KQza7MyrCulbHUqZaPlpqSyryxkpCFmZKQmq+SkM2olI+OrZbKya3Myo6rzMvUsZOPtJ6VpbutzMiGtJGPuJ2UsdS0lJvUr5GPlq7My4aezMqKnpSPvLGRi6+ZkbXJspOL1K2Wj7ickYvUspKL1J2Sj82ezMrImZTKyJmRtcmdko+4mszKip7Mys2rlLbJtJKQha3Mm6+ZzMbQmczKip6Vssi5zMbNhZGQhZmRtcm0lbXJsszKmpqRpZ6zlo/Jq5KQhZmSyo2ZlaWOs5WlybKUsa+Zko+3mZS2zZ2Sj7eZkZDUsZS2mqiUj8mdlLHUnZKL1KWVpY6clo+OrZG1npqHm8/C3Q==",
+    title: "rZqMj4qajIuejN+e34+NmpiKkYuejN+MkJ2Nmt+cjZaPi5CcnoyWkZCM",
     questions: [...questionsAnswer],
   },
 };

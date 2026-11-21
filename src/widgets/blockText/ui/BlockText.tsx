@@ -3,16 +3,20 @@ import { mainText } from "../../../shared/mock/mainText";
 import styles from "./BlockText.module.css";
 
 export default function BlockText() {
+  console.log(decodeText(mainText.bestOnline.title));
+
   return (
-    <div className={styles.blockText}>
+    <div className={styles.blockText} id="text">
       <div className={styles.wrap}>
-        <h3 className={styles.title}>{decodeText(mainText.howWork.title)}</h3>
+        <span className={styles.title}>
+          {decodeText(mainText.howWork.title)}
+        </span>
         <span className={styles.text}>{decodeText(mainText.howWork.des)}</span>
       </div>
       <div className={styles.wrap}>
-        <h3 className={styles.title}>
+        <span className={styles.title}>
           {decodeText(mainText.bestOnline.title)}
-        </h3>
+        </span>
         <div className={styles.subWrap}>
           <span className={styles.subTitle}>
             {decodeText(mainText.bestOnline.payments.title)}
@@ -39,7 +43,7 @@ export default function BlockText() {
         </div>
       </div>
       <div className={styles.wrap}>
-        <h3 className={styles.title}>{decodeText(mainText.assed.title)}</h3>
+        <span className={styles.title}>{decodeText(mainText.assed.title)}</span>
         <span className={styles.text}>{decodeText(mainText.assed.des)}</span>
         {mainText.assed.text.map((el, i) => {
           return (
@@ -52,7 +56,7 @@ export default function BlockText() {
         })}
       </div>
       <div className={styles.wrap}>
-        <h3 className={styles.title}>{decodeText(mainText.metod.title)}</h3>
+        <span className={styles.title}>{decodeText(mainText.metod.title)}</span>
         {mainText.metod.text.map((el) => {
           return (
             <div className={styles.subWrap}>
@@ -63,7 +67,9 @@ export default function BlockText() {
         })}
       </div>
       <div className={styles.wrap}>
-        <h3 className={styles.title}>{decodeText(mainText.payout.title)}</h3>
+        <span className={styles.title}>
+          {decodeText(mainText.payout.title)}
+        </span>
         <span className={styles.text}>{decodeText(mainText.payout.des)}</span>
         {mainText.payout.text.map((el, i) => {
           return (

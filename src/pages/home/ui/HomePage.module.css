@@ -1,16 +1,18 @@
 .homePage {
   width: 100%;
+  overflow: hidden;
 }
 
 .backInfo {
   position: relative;
-  height: max-content;
+  min-height: 420px;
   background: linear-gradient(
     90deg,
     rgb(200, 0, 83) 0%,
     rgba(33, 37, 47, 1) 100%
   );
 }
+
 .imgWrap {
   position: absolute;
   top: 0;
@@ -22,56 +24,71 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+  pointer-events: none;
 }
 
-.girlCover {
+.girlCover,
+.zeusCover {
   width: 40%;
   height: 100%;
 }
 
 .img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .backMain {
   position: relative;
-  height: max-content;
   background: var(--bg-main);
 }
+
 .container {
+  width: 100%;
   max-width: 1170px;
-  margin: auto;
-  padding: 20px 50px 20px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
 }
+
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  padding: 30px;
+  padding: 50px 20px;
   position: relative;
   overflow: hidden;
   z-index: 3;
 }
+
 .title {
+  width: 100%;
   max-width: 900px;
-  font-size: 50px;
+  font-size: clamp(28px, 4vw, 50px);
+  line-height: 1.2;
   font-weight: 700;
   text-align: center;
   color: var(--text-title);
   position: relative;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  overflow-wrap: break-word;
 }
+
 .textInfo {
-  width: 900px;
-  font-size: 18px;
+  width: 100%;
+  max-width: 900px;
+  font-size: clamp(15px, 1.5vw, 18px);
+  line-height: 1.6;
   font-weight: 500;
   color: var(--text-main);
   text-align: center;
   position: relative;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 1);
 }
+
 .dateInfo {
   font-size: 14px;
   font-weight: 500;
@@ -92,7 +109,8 @@
 }
 
 .listCardTitle {
-  font-size: 28px;
+  font-size: clamp(22px, 3vw, 28px);
+  line-height: 1.3;
   font-weight: 700;
   color: var(--text-main);
 }
@@ -102,4 +120,124 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .container {
+    padding: 20px 24px;
+  }
+
+  .info {
+    padding: 40px 15px;
+  }
+
+  .girlCover,
+  .zeusCover {
+    width: 35%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .backInfo {
+    min-height: 380px;
+  }
+
+  .container {
+    padding: 20px 16px;
+  }
+
+  .info {
+    padding: 45px 10px;
+    gap: 18px;
+  }
+
+  .girlCover,
+  .zeusCover {
+    width: 32%;
+    opacity: 0.55;
+  }
+
+  .img {
+    object-fit: contain;
+    object-position: bottom;
+  }
+
+  .title {
+    font-size: clamp(26px, 6vw, 38px);
+  }
+
+  .textInfo {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .dateInfo {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .listCardTitle {
+    font-size: 23px;
+  }
+
+  .listCardContent {
+    gap: 15px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .backInfo {
+    min-height: 340px;
+  }
+
+  .container {
+    padding: 16px 12px;
+  }
+
+  .info {
+    padding: 35px 5px;
+    gap: 15px;
+  }
+
+  .girlCover,
+  .zeusCover {
+    width: 30%;
+    opacity: 0.4;
+  }
+
+  .title {
+    font-size: 27px;
+    line-height: 1.25;
+  }
+
+  .textInfo {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .dateInfo {
+    font-size: 11px;
+    padding: 7px 12px;
+  }
+
+  .listCardTitle {
+    font-size: 21px;
+  }
+
+  .listCardContent {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .textInfo {
+    font-size: 13px;
+  }
 }
