@@ -13,7 +13,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.headerContent}>
         <div className={styles.logo}>
-          <Link to="/" className={styles.logoText} onClick={closeMenu}>
+          <Link to="/blog" className={styles.logoText} onClick={closeMenu}>
             <div className={styles.logoImgCover}>
               <img className={styles.logoImg} src={logo} alt="Logo" />
             </div>
