@@ -1,0 +1,362 @@
+.cardBlog {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  min-height: 200px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.content {
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  min-height: 170px;
+}
+
+.rang {
+  flex-shrink: 0;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--text-card);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgCover {
+  width: 15%;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: black;
+}
+
+.infoText {
+  flex-grow: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+}
+
+.titleWrap {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.name {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+  overflow-wrap: anywhere;
+}
+
+.raiting {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+}
+
+.welcom {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+}
+
+.gift {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-card);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-wrap: anywhere;
+}
+
+.gift::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  background-color: #ff4d6d;
+  box-shadow: 0 0 3px #ff073a, 0 0 8px #ff073a, 0 0 16px #ff073a;
+  border-radius: 50%;
+}
+
+.rang.rankGold {
+  color: var(--text-gold);
+  text-shadow: 0 2px 10px rgba(255, 217, 0, 0.1);
+  font-size: 60px;
+}
+
+.rang.rankSilver {
+  color: var(--text-silver);
+  text-shadow: 0 2px 10px rgba(192, 192, 192, 0.1);
+  font-size: 56px;
+}
+
+.rang.rankBronze {
+  color: var(--text-bronze);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 52px;
+}
+
+.link {
+  width: 15%;
+  min-width: 110px;
+  box-sizing: border-box;
+  align-self: center;
+  text-align: center;
+  background-color: var(--color-primary);
+  padding: 18px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 25px;
+  color: #ffffff;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease,
+    transform 0.4s ease;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #ff9900;
+  animation: continuous-pulse 0.8s infinite ease-in-out;
+}
+
+.link:active {
+  transform: scale(0.95);
+  animation: none;
+}
+
+/* Рамки для призовых мест */
+
+@property --border-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.cardBlog.rankGold,
+.cardBlog.rankSilver,
+.cardBlog.rankBronze {
+  border: none;
+}
+
+.cardBlog.rankGold::before,
+.cardBlog.rankSilver::before,
+.cardBlog.rankBronze::before,
+.cardBlog.rankGold::after,
+.cardBlog.rankSilver::after,
+.cardBlog.rankBronze::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 16px;
+  background: conic-gradient(from var(--border-angle), var(--metal-colors));
+  animation: rotate-metal-border 4s linear infinite;
+  z-index: -1;
+}
+
+.cardBlog.rankGold::after,
+.cardBlog.rankSilver::after,
+.cardBlog.rankBronze::after {
+  filter: blur(12px);
+  opacity: 0.6;
+  z-index: -2;
+}
+
+.cardBlog.rankGold {
+  --metal-colors: #b8860b, #ffd700, #fff8dc, #eab308, #b8860b;
+}
+
+.cardBlog.rankSilver {
+  --metal-colors: #64748b, #cbd5e1, #ffffff, #94a3b8, #64748b;
+}
+
+.cardBlog.rankBronze {
+  --metal-colors: #78350f, #d97706, #fed7aa, #b45309, #78350f;
+}
+
+@keyframes rotate-metal-border {
+  to {
+    --border-angle: 360deg;
+  }
+}
+
+@keyframes continuous-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(255, 94, 0, 0.5), 0 0 4px rgba(255, 94, 0, 0.3);
+  }
+
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 28px rgba(255, 94, 0, 1), 0 0 14px rgba(255, 94, 0, 0.6);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(255, 94, 0, 0.5), 0 0 4px rgba(255, 94, 0, 0.3);
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .info {
+    gap: 15px;
+  }
+
+  .imgCover {
+    width: 17%;
+    height: 140px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .welcom {
+    font-size: 19px;
+  }
+
+  .gift {
+    font-size: 16px;
+  }
+
+  .link {
+    min-width: 100px;
+    font-size: 16px;
+    padding: 15px 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .cardBlog {
+    min-height: auto;
+    padding: 14px;
+  }
+
+  .info {
+    display: grid;
+    grid-template-columns: 45px 75px minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+  }
+
+  .rang,
+  .rang.rankGold,
+  .rang.rankSilver,
+  .rang.rankBronze {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .imgCover {
+    width: 75px;
+    height: 90px;
+  }
+
+  .infoText {
+    min-height: 90px;
+  }
+
+  .titleWrap {
+    gap: 5px 10px;
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-size: 21px;
+  }
+
+  .raiting {
+    font-size: 16px;
+  }
+
+  .welcom {
+    font-size: 16px;
+  }
+
+  .gift {
+    font-size: 14px;
+  }
+
+  .link {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .cardBlog {
+    padding: 12px;
+  }
+
+  .info {
+    grid-template-columns: 35px 65px minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .rang,
+  .rang.rankGold,
+  .rang.rankSilver,
+  .rang.rankBronze {
+    font-size: 29px;
+  }
+
+  .imgCover {
+    width: 65px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .raiting {
+    font-size: 14px;
+  }
+
+  .welcom {
+    font-size: 14px;
+  }
+
+  .gift {
+    font-size: 13px;
+  }
+
+  .link {
+    font-size: 15px;
+    padding: 11px;
+  }
+}

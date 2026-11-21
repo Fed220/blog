@@ -4,9 +4,9 @@ import { Article, ArticleCategory } from "../../shared/mock/articles.mock";
 import styles from "./ArticleCard.module.css";
 
 const CATEGORY_LABELS: Record<ArticleCategory, string> = {
-  wallets: "Криптокошельки",
+  wallets: "Billeteras de criptomonedas",
   security: "Безопасность",
-  basics: "База знаний",
+  basics: "Base de conocimientos",
 };
 
 interface ArticleCardProps {
@@ -22,7 +22,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
             {CATEGORY_LABELS[article.category]}
           </span>
           <span className={styles.readTime}>
-            {article.readTimeMinutes} мин чтения
+            {article.readTimeMinutes}minutos de lectura
           </span>
         </div>
 
@@ -32,7 +32,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
 
       <div className={styles.footer}>
         <span>{article.publishedAt}</span>
-        <span className={styles.readMore}>Читать →</span>
+        <span className={styles.readMore}>Leer →</span>
       </div>
     </Link>
   );

@@ -1,15 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { MainHeader } from "../widgets/mainHeader/MainHeader";
 import { MainFooter } from "../widgets/mainFooter/MainFooter";
-import { MainHome } from "../pages/mainHome/ui/MainHome";
 import { ArticlePage } from "../pages/articlePage/ArticlePage";
 import { AboutPage } from "../pages/aboutPage/AboutPage";
 import { DisclaimerPage } from "../pages/disclaimerPage/DisclaimerPage";
 import { PrivacyPage } from "../pages/privacyPage/PrivacyPage";
 import { ContactsPage } from "../pages/contactsPage/ContactsPage";
 import { ScrollToTop } from "./providers/ScrollToTop";
+import HomePage from "../pages/home/ui/HomePage";
 import "../index.css";
+import Header from "../widgets/header";
+import Footer from "../widgets/footer/Footer";
 
 export const App: React.FC = () => {
   return (
@@ -18,10 +19,10 @@ export const App: React.FC = () => {
       <div
         style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
       >
-        <MainHeader />
+        <Header />
         <div style={{ flex: 1 }}>
           <Routes>
-            <Route path="/" element={<MainHome />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/disclaimer" element={<DisclaimerPage />} />
@@ -30,7 +31,7 @@ export const App: React.FC = () => {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
-        <MainFooter />
+        <Footer></Footer>
       </div>
     </BrowserRouter>
   );

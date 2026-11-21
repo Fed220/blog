@@ -21,358 +21,360 @@ export interface Article {
 export const ARTICLES_MOCK: Article[] = [
   {
     id: "1",
-    slug: "kasto-i-nekasto-koshelki-v-chem-raznica",
-    title: "Кастодиальные и некастодиальные криптокошельки: в чем разница",
+    slug: "billeteras-custodia-y-no-custodia-cual-es-la-diferencia",
+    title: "Billeteras de custodia y sin custodia: cuál es la diferencia",
     category: "wallets",
     summary:
-      "Подробный технический разбор двух моделей хранения приватных ключей: кто контролирует доступ к адресам в блокчейне и как устроена архитектура самостоятельного хранения.",
-    publishedAt: "10 ноября 2026",
+      "Análisis técnico detallado de dos modelos de almacenamiento de claves privadas: quién controla el acceso a las direcciones en la blockchain y cómo funciona la arquitectura de autocustodia.",
+    publishedAt: "10 de noviembre de 2026",
     readTimeMinutes: 6,
     author: {
-      name: "Алексей Морозов",
-      role: "Технический редактор, специалист по блокчейн-инфраструктуре",
+      name: "Alexéi Morózov",
+      role: "Editor técnico, especialista en infraestructura blockchain",
     },
     sections: [
       {
-        heading: "Что на самом деле хранит криптокошелек",
+        heading: "Qué almacena realmente una billetera",
         paragraphs: [
-          "Распространенное заблуждение заключается в том, что криптовалютный кошелек хранит сами монеты или токены внутри приложения. В действительности все записи о балансах находятся непосредственно в распределенном реестре (блокчейне), а кошелек представляет собой программный или аппаратный интерфейс для управления криптографическими ключами.",
-          "Для взаимодействия с сетью используются два связанных элемента: публичный адрес (аналог номера счета, который можно передавать другим пользователям для получения переводов) и приватный ключ — секретная комбинация символов, с помощью которой формируется цифровая подпись транзакции.",
+          "Un error común es pensar que una billetera de criptomonedas guarda las monedas o tokens dentro de la propia aplicación. En realidad, todos los registros de saldos se encuentran directamente en el libro mayor distribuido (blockchain), mientras que la billetera actúa como una interfaz de software o hardware para gestionar las claves criptográficas.",
+          "Para interactuar con la red se utilizan dos elementos vinculados: una dirección pública (similar a un número de cuenta que se puede compartir para recibir transferencias) y una clave privada, una combinación secreta de caracteres con la que se genera la firma digital de cada transacción.",
         ],
       },
       {
-        heading: "Архитектура кастодиальных решений",
+        heading: "Arquitectura de las soluciones de custodia",
         paragraphs: [
-          "В кастодиальной модели приватные ключи хранятся на серверах стороннего поставщика услуг. Пользователь получает доступ к интерфейсу через стандартную связку логина, пароля и двухфакторной аутентификации.",
-          "Главной особенностью такого подхода является возможность восстановить доступ к учетной записи через службу поддержки при утере пароля. Однако с технической точки зрения пользователь не подписывает транзакции напрямую — запрос обрабатывается внутренней инфраструктурой платформы.",
+          "En el modelo de custodia, las claves privadas se almacenan en los servidores de un proveedor de servicios externo. El usuario accede a la interfaz mediante una combinación estándar de usuario, contraseña y autenticación de dos factores.",
+          "La principal característica de este enfoque es la posibilidad de recuperar el acceso a la cuenta a través del servicio de soporte en caso de perder la contraseña. Sin embargo, desde el punto de vista técnico, el usuario no firma las transacciones directamente: la solicitud es procesada por la infraestructura interna de la plataforma.",
         ],
       },
       {
-        heading: "Принцип работы некастодиальных кошельков",
+        heading: "Principio de funcionamiento de las billeteras sin custodia",
         paragraphs: [
-          "Некастодиальные кошельки (например, MetaMask, Trust Wallet или аппаратные устройства Ledger и Trezor) генерируют приватные ключи локально на устройстве пользователя. Разработчики приложения не имеют доступа к этим данным и не хранят их на своих серверах.",
-          "Полный контроль означает и полную ответственность: при создании кошелька программа формирует мнемоническую фразу (Seed-фразу) из 12 или 24 слов. Если устройство выйдет из строя, восстановить доступ к адресам можно только при наличии этой резервной копии.",
+          "Las billeteras sin custodia o de autocustodia (como MetaMask, Trust Wallet o dispositivos de hardware como Ledger y Trezor) generan las claves privadas de forma local en el dispositivo del usuario. Los desarrolladores de la aplicación no tienen acceso a estos datos ni los almacenan en sus servidores.",
+          "El control total implica también una responsabilidad total: al crear la billetera, el programa genera una frase mnemotécnica (frase semilla o Seed phrase) de 12 o 24 palabras. Si el dispositivo falla, solo será posible restaurar el acceso a las direcciones contando con esta copia de seguridad.",
         ],
       },
     ],
   },
   {
     id: "2",
-    slug: "chto-takoe-seed-fraza-i-standart-bip39",
-    title: "Как устроена Seed-фраза и зачем нужен стандарт BIP-39",
+    slug: "que-es-la-frase-semilla-y-el-estandar-bip39",
+    title: "Cómo funciona la frase semilla y para qué sirve el estándar BIP-39",
     category: "security",
     summary:
-      "Разбираем криптографический стандарт генерации мнемонических фраз: откуда берутся 12 или 24 слова, как они преобразуются в мастер-ключ и почему важен порядок слов.",
-    publishedAt: "08 ноября 2026",
+      "Analizamos el estándar criptográfico de generación de frases mnemotécnicas: de dónde salen las 12 o 24 palabras, cómo se convierten en una clave maestra y por qué importa su orden.",
+    publishedAt: "08 de noviembre de 2026",
     readTimeMinutes: 7,
     author: {
-      name: "Дмитрий Соколов",
-      role: "Эксперт по информационной безопасности",
+      name: "Dmitri Sokolov",
+      role: "Experto en seguridad de la información",
     },
     sections: [
       {
-        heading: "Проблема запоминания шестнадцатеричных ключей",
+        heading: "El problema de memorizar claves hexadecimales",
         paragraphs: [
-          "Базовый приватный ключ в большинстве блокчейнов представляет собой 256-битное число, которое в шестнадцатеричном формате выглядит как строка из 64 случайных цифр и букв. Переписать такую строку вручную без единой опечатки крайне сложно.",
-          "Чтобы упростить резервное копирование, в 2013 году был предложен стандарт BIP-39 (Bitcoin Improvement Proposal 39). Он описывает алгоритм преобразования случайной энтропии в последовательность простых английских слов из заранее утвержденного словаря.",
+          "La clave privada base en la mayoría de las blockchains es un número de 256 bits que, en formato hexadecimal, se ve como una cadena de 64 letras y números aleatorios. Copiar una cadena así a mano sin cometer un solo error resulta extremadamente difícil.",
+          "Para simplificar las copias de seguridad, en 2013 se propuso el estándar BIP-39 (Bitcoin Improvement Proposal 39). Este describe un algoritmo para transformar la entropía aleatoria en una secuencia de palabras sencillas en inglés extraídas de un diccionario predefinido.",
         ],
       },
       {
-        heading: "Как формируется словарь и контрольная сумма",
+        heading: "Cómo se forma el diccionario y la suma de verificación",
         paragraphs: [
-          "Официальный словарь BIP-39 включает ровно 2048 английских слов. Они подобраны таким образом, чтобы первые четыре буквы каждого слова были уникальными и не совпадали ни с одним другим словом в списке.",
-          "Последнее слово в фразе из 12 или 24 слов не является полностью случайным — оно содержит контрольную сумму (checksum). Благодаря этому при вводе фразы кошелек мгновенно проверяет корректность записи и сообщает об ошибке, если одно из слов перепутано.",
+          "El diccionario oficial BIP-39 incluye exactamente 2048 palabras en inglés. Están seleccionadas de manera que las primeras cuatro letras de cada palabra sean únicas y no coincidan con ninguna otra palabra de la lista.",
+          "La última palabra de una frase de 12 o 24 palabras no es completamente aleatoria, ya que contiene una suma de verificación (checksum). Gracias a esto, al introducir la frase, la billetera comprueba al instante la validez del registro y avisa si alguna palabra está mal escrita o desordenada.",
         ],
       },
       {
-        heading: "Базовые правила офлайн-хранения",
+        heading: "Reglas básicas de almacenamiento sin conexión",
         paragraphs: [
-          "Поскольку из одной мнемонической фразы математически выводятся все дочерние приватные ключи для десятков различных сетей (иерархически детерминированный кошелек), компрометация фразы ведет к полной потере контроля над адресами.",
-          "Специалисты по безопасности рекомендуют фиксировать слова исключительно на физических носителях — бумаге или специализированных металлических пластинах, избегая создания скриншотов, сохранения в облачных заметках или пересылки через мессенджеры.",
+          "Dado que a partir de una única frase mnemotécnica se derivan matemáticamente todas las claves privadas secundarias para decenas de redes distintas (billetera jerárquica determinista), comprometer la frase conlleva la pérdida total del control sobre las direcciones.",
+          "Los especialistas en seguridad recomiendan anotar las palabras exclusivamente en soportes físicos —papel o placas metálicas especializadas—, evitando hacer capturas de pantalla, guardarlas en notas en la nube o enviarlas por aplicaciones de mensajería.",
         ],
       },
     ],
   },
   {
     id: "3",
-    slug: "apparatnye-koshelki-princip-raboty-secure-element",
+    slug: "billeteras-de-hardware-como-funciona-el-chip-secure-element",
     title:
-      "Устройство аппаратных криптокошельков: зачем нужен чип Secure Element",
+      "Arquitectura de las billeteras de hardware: para qué sirve el chip Secure Element",
     category: "wallets",
     summary:
-      "Обзор архитектуры холодных кошельков: как изолированная среда выполнения защищает приватные ключи при подключении к зараженному компьютеру или смартфону.",
-    publishedAt: "05 ноября 2026",
+      "Análisis de la arquitectura de las billeteras frías: cómo un entorno de ejecución aislado protege las claves privadas al conectarse a un ordenador o smartphone infectado.",
+    publishedAt: "05 de noviembre de 2026",
     readTimeMinutes: 6,
     author: {
-      name: "Алексей Морозов",
-      role: "Технический редактор, специалист по блокчейн-инфраструктуре",
+      name: "Alexéi Morózov",
+      role: "Editor técnico, especialista en infraestructura blockchain",
     },
     sections: [
       {
-        heading: "Главная уязвимость программных кошельков",
+        heading: "La principal vulnerabilidad de las billeteras de software",
         paragraphs: [
-          "Браузерные расширения и мобильные приложения работают в среде операционной системы, которая постоянно подключена к интернету. Если на компьютер попадет вредоносное ПО, считывающее буфер обмена или память процессов, приватные ключи могут оказаться под угрозой в момент разблокировки приложения.",
-          "Аппаратный кошелек решает эту проблему за счет физического разделения среды формирования транзакции и среды ее криптографической подписи.",
+          "Las extensiones de navegador y las aplicaciones móviles funcionan dentro de un sistema operativo que está conectado permanentemente a internet. Si un software malicioso infecta el equipo y lee el portapapeles o la memoria de los procesos, las claves privadas pueden quedar expuestas al desbloquear la aplicación.",
+          "Una billetera de hardware resuelve este problema separando físicamente el entorno donde se crea la transacción del entorno donde se realiza su firma criptográfica.",
         ],
       },
       {
-        heading: "Как происходит подпись внутри устройства",
+        heading: "Cómo se realiza la firma dentro del dispositivo",
         paragraphs: [
-          "При отправке перевода программный интерфейс на компьютере формирует «сырую» неподписанную транзакцию и передает ее по кабелю или Bluetooth в аппаратное устройство. Внутри кошелька установлен защищенный микроконтроллер (часто класса Secure Element, аналогичный чипам в банковских картах и биометрических паспортах).",
-          "Чип проверяет данные, выводит адрес получателя и сумму на встроенный экран самого устройства. Только после того как пользователь физически нажмет кнопки подтверждения на корпусе, чип подписывает транзакцию приватным ключом и возвращает наружу уже готовую цифровую подпись. Сам ключ никогда не покидает пределы микросхемы.",
+          "Al enviar una transferencia, la interfaz de software en el ordenador genera una transacción «en bruto» sin firmar y la envía por cable o Bluetooth al dispositivo físico. En el interior de la billetera hay un microcontrolador seguro (a menudo de clase Secure Element, similar a los chips de las tarjetas bancarias y los pasaportes biométricos).",
+          "El chip verifica los datos y muestra la dirección del destinatario y el importe en la pantalla integrada del propio dispositivo. Solo después de que el usuario pulse físicamente los botones de confirmación en la carcasa, el chip firma la transacción con la clave privada y devuelve al exterior la firma digital ya lista. La clave en sí nunca sale del microprocesador.",
         ],
       },
       {
-        heading: "Значение встроенного экрана",
+        heading: "La importancia de la pantalla integrada",
         paragraphs: [
-          "Независимый дисплей на аппаратном кошельке служит последним рубежом проверки. Даже если экран компьютера подменен вирусом и показывает пользователю один адрес получателя, дисплей устройства отобразит реальные данные, зашитые в транзакцию.",
-          "Сверка символов адреса на мониторе и на экране устройства позволяет полностью исключить атаки с подменой реквизитов.",
+          "La pantalla independiente de una billetera de hardware actúa como la última línea de verificación. Incluso si la pantalla del ordenador está manipulada por un virus y muestra una dirección de destino falsa, el visor del dispositivo mostrará los datos reales codificados en la transacción.",
+          "Comprobar que los caracteres de la dirección coincidan tanto en el monitor como en la pantalla del dispositivo permite evitar por completo los ataques de suplantación de datos.",
         ],
       },
     ],
   },
   {
     id: "4",
-    slug: "chto-takoe-komissiya-seti-gas-i-kak-ona-rasschityvaetsya",
+    slug: "que-es-la-comision-de-red-gas-y-como-se-calcula",
     title:
-      "Комиссия сети (Gas) в блокчейне: от чего зависит стоимость перевода",
+      "Comisión de red (Gas) en la blockchain: de qué depende el coste de una transferencia",
     category: "basics",
     summary:
-      "Техническое объяснение механизма газовых сборов в сетях Ethereum, TRON и Bitcoin: что такое Gwei, базовая комиссия и почему простые переводы дешевле взаимодействия со смарт-контрактами.",
-    publishedAt: "02 ноября 2026",
+      "Explicación técnica del mecanismo de tarifas de gas en las redes Ethereum, TRON y Bitcoin: qué es el Gwei, la comisión base y por qué las transferencias simples son más baratas que interactuar con contratos inteligentes.",
+    publishedAt: "02 de noviembre de 2026",
     readTimeMinutes: 5,
     author: {
-      name: "Алексей Морозов",
-      role: "Технический редактор, специалист по блокчейн-инфраструктуре",
+      name: "Alexéi Morózov",
+      role: "Editor técnico, especialista en infraestructura blockchain",
     },
     sections: [
       {
-        heading: "Зачем в блокчейнах существуют комиссии",
+        heading: "Por qué existen las comisiones en las blockchains",
         paragraphs: [
-          "В децентрализованных сетях нет единого дата-центра, оплачиваемого одной компанией. Поддержкой реестра, проверкой транзакций и созданием новых блоков занимаются независимые узлы сети (валидаторы или майнеры), которые тратят вычислительные ресурсы и электроэнергию.",
-          "Сетевая комиссия выполняет две функции: компенсирует затраты операторов узлов и защищает блокчейн от спам-атак, делая массовую отправку бессмысленных транзакций экономически невыгодной.",
+          "En las redes descentralizadas no existe un centro de datos único financiado por una sola empresa. Del mantenimiento del registro, la verificación de transacciones y la creación de nuevos bloques se encargan nodos independientes de la red (validadores o mineros), que invierten recursos computacionales y energía eléctrica.",
+          "La comisión de red cumple dos funciones: compensar los gastos de los operadores de nodos y proteger la blockchain contra ataques de spam, haciendo que el envío masivo de transacciones sin sentido resulte económicamente inviable.",
         ],
       },
       {
-        heading: "Понятие газа (Gas) и Gwei",
+        heading: "Concepto de gas (Gas) y Gwei",
         paragraphs: [
-          "В сети Ethereum и совместимых с ней блокчейнах (EVM) вычислительная сложность каждой операции измеряется в условных единицах — газе (Gas). Стандартный перевод нативной монеты ETH требует ровно 21 000 единиц газа, тогда как вызов сложного смарт-контракта может потребовать от 60 000 до 300 000 единиц.",
-          "Итоговая стоимость складывается из умножения объема газа на текущую цену одной единицы газа, которая измеряется в Gwei (одна миллиардная часть ETH). При высокой нагрузке на сеть пользователи конкурируют за место в блоке, из-за чего цена газа временно возрастает.",
+          "En la red Ethereum y en las blockchains compatibles con ella (EVM), la complejidad computacional de cada operación se mide en unidades convencionales llamadas gas (Gas). Una transferencia estándar de la moneda nativa ETH requiere exactamente 21 000 unidades de gas, mientras que la ejecución de un contrato inteligente complejo puede exigir entre 60 000 y 300 000 unidades.",
+          "El coste final se obtiene multiplicando la cantidad de gas por el precio actual de cada unidad, que se mide en Gwei (la milmillonésima parte de un ETH). Cuando la red está muy congestionada, los usuarios compiten por un espacio en el bloque, lo que provoca un aumento temporal del precio del gas.",
         ],
       },
       {
-        heading: "Особенности комиссий в разных стандартах",
+        heading: "Particularidades de las comisiones en distintos estándares",
         paragraphs: [
-          "Важно учитывать, что комиссия всегда оплачивается в нативной монете того блокчейна, в котором происходит операция. Например, для перевода токена стандарта ERC-20 на балансе адреса обязательно должен находиться небольшой запас ETH.",
-          "В сети TRON (стандарт TRC-20) используется альтернативная модель ресурсов: для транзакций расходуются единицы пропускной способности (Bandwidth) и энергии (Energy), при нехватке которых автоматически списывается нативная монета TRX.",
+          "Es importante tener en cuenta que la comisión siempre se paga en la moneda nativa de la blockchain en la que se realiza la operación. Por ejemplo, para transferir un token bajo el estándar ERC-20, es imprescindible contar con un pequeño saldo de ETH en la dirección.",
+          "En la red TRON (estándar TRC-20) se utiliza un modelo alternativo de recursos: para las transacciones se consumen unidades de ancho de banda (Bandwidth) y energía (Energy); si estas no son suficientes, se descuenta automáticamente la moneda nativa TRX.",
         ],
       },
     ],
   },
   {
     id: "5",
-    slug: "standarty-tokenov-erc20-trc20-bep20-pochemu-vazhna-set",
+    slug: "estandares-de-tokens-erc20-trc20-bep20-por-que-importa-la-red",
     title:
-      "Стандарты сетей ERC-20, TRC-20 и BEP-20: почему нельзя путать блокчейны при переводе",
+      "Estándares de red ERC-20, TRC-20 y BEP-20: por qué no se deben confundir las blockchains al transferir",
     category: "basics",
     summary:
-      "Разбираем архитектуру мультисетевых токенов: как один и тот же стейблкоин существует в разных блокчейнах и к чему приводит отправка средств в несовместимую сеть.",
-    publishedAt: "29 октября 2026",
+      "Analizamos la arquitectura de los tokens multired: cómo una misma stablecoin existe en diferentes blockchains y qué ocurre al enviar fondos a una red incompatible.",
+    publishedAt: "29 de octubre de 2026",
     readTimeMinutes: 5,
     author: {
-      name: "Дмитрий Соколов",
-      role: "Эксперт по информационной безопасности",
+      name: "Dmitri Sokolov",
+      role: "Experto en seguridad de la información",
     },
     sections: [
       {
-        heading: "Что такое стандарт токена",
+        heading: "Qué es un estándar de token",
         paragraphs: [
-          "Большинство современных цифровых активов не имеют собственного отдельного блокчейна, а выпускаются в виде смарт-контрактов поверх уже существующих крупных сетей. Чтобы кошельки и приложения могли единообразно отображать балансы и проводить переводы, были разработаны технические стандарты интерфейсов смарт-контрактов.",
-          "Наиболее распространенными являются ERC-20 (в сети Ethereum), TRC-20 (в сети TRON) и BEP-20 (в сети BNB Smart Chain). Формально это правила, описывающие функции смарт-контракта: проверку баланса, отправку и разрешение на списание.",
+          "La mayoría de los activos digitales actuales no cuentan con una blockchain propia independiente, sino que se emiten en forma de contratos inteligentes sobre grandes redes ya existentes. Para que las billeteras y aplicaciones puedan mostrar los saldos y procesar transferencias de manera uniforme, se desarrollaron estándares técnicos para las interfaces de los contratos inteligentes.",
+          "Los más extendidos son ERC-20 (en la red Ethereum), TRC-20 (en la red TRON) y BEP-20 (en BNB Smart Chain). Formalmente, son reglas que definen las funciones del contrato inteligente: consulta de saldo, envío y autorización de gasto.",
         ],
       },
       {
-        heading: "Почему один актив существует в разных сетях",
+        heading: "Por qué un mismo activo existe en varias redes",
         paragraphs: [
-          "Крупные эмитенты токенов (например, стейблкоинов USDT или USDC) разворачивают свои смарт-контракты сразу в нескольких независимых блокчейнах. Это позволяет пользователям выбирать инфраструктуру с подходящей скоростью подтверждения блоков и размером сетевой комиссии.",
-          "Несмотря на одинаковое название тикера в интерфейсе кошелька, с технической точки зрения токен в сети TRON и токен в сети Ethereum — это два разных реестра, которые напрямую не связаны между собой.",
+          "Los grandes emisores de tokens (por ejemplo, de las stablecoins USDT o USDC) despliegan sus contratos inteligentes simultáneamente en varias blockchains independientes. Esto permite a los usuarios elegir la infraestructura con la velocidad de confirmación de bloques y el importe de comisión de red que mejor se adapten a sus necesidades.",
+          "A pesar de tener el mismo símbolo (ticker) en la interfaz de la billetera, desde el punto de vista técnico un token en la red TRON y un token en la red Ethereum pertenecen a dos registros distintos que no están conectados directamente entre sí.",
         ],
       },
       {
-        heading: "Как проверить совместимость перед отправкой",
+        heading: "Cómo comprobar la compatibilidad antes de enviar",
         paragraphs: [
-          "В блокчейне отсутствует кнопка отмены операции. Если отправить токен из сети ERC-20 на адрес, который поддерживает исключительно сеть TRC-20, транзакция пройдет в исходной сети, но принимающая сторона не увидит баланс в своем интерфейсе.",
-          "Перед подтверждением любой операции необходимо убедиться, что название выбранной сети отправки полностью совпадает со стандартом сети, указанным при генерации адреса получения.",
+          "En la blockchain no existe un botón para cancelar una operación. Si se envía un token desde la red ERC-20 a una dirección que únicamente admite la red TRC-20, la transacción se ejecutará en la red de origen, pero el destinatario no verá el saldo en su interfaz.",
+          "Antes de confirmar cualquier operación, es indispensable asegurarse de que el nombre de la red de envío seleccionada coincida exactamente con el estándar de red indicado al generar la dirección de recepción.",
         ],
       },
     ],
   },
   {
     id: "6",
-    slug: "obzor-interfejsa-metamask-kak-rabotat-s-evm-setyami",
+    slug: "analisis-interfaz-metamask-como-trabajar-con-redes-evm",
     title:
-      "Технический обзор MetaMask: как устроена работа с EVM-совместимыми сетями",
+      "Análisis técnico de MetaMask: cómo funciona el trabajo con redes compatibles con EVM",
     category: "wallets",
     summary:
-      "Разбираем функционал одного из самых популярных некастодиальных браузерных кошельков: добавление пользовательских RPC-узлов, управление разрешениями и проверка подписей.",
-    publishedAt: "25 октября 2026",
+      "Revisamos las funciones de una de las billeteras de navegador sin custodia más populares: cómo añadir nodos RPC personalizados, gestionar permisos y verificar firmas.",
+    publishedAt: "25 de octubre de 2026",
     readTimeMinutes: 6,
     author: {
-      name: "Алексей Морозов",
-      role: "Технический редактор, специалист по блокчейн-инфраструктуре",
+      name: "Alexéi Morózov",
+      role: "Editor técnico, especialista en infraestructura blockchain",
     },
     sections: [
       {
-        heading: "Назначение и архитектура расширения",
+        heading: "Propósito y arquitectura de la extensión",
         paragraphs: [
-          "MetaMask представляет собой некастодиальный программный кошелек, доступный в виде расширения для веб-браузеров и мобильного приложения. Изначально разработанный для взаимодействия с блокчейном Ethereum, он поддерживает любые сети, совместимые с виртуальной машиной Ethereum (EVM), включая Polygon, Arbitrum, Optimism и BNB Smart Chain.",
-          "Главной особенностью EVM-сетей является единый формат публичных адресов (начинающихся с символов 0x) и единый приватный ключ для всех подключенных сетей в рамках одной учетной записи.",
+          "MetaMask es una billetera de software sin custodia disponible como extensión para navegadores web y aplicación móvil. Desarrollada originalmente para interactuar con la blockchain de Ethereum, admite cualquier red compatible con la Máquina Virtual de Ethereum (EVM), incluidas Polygon, Arbitrum, Optimism y BNB Smart Chain.",
+          "La característica principal de las redes EVM es que comparten un mismo formato de direcciones públicas (que comienzan por los caracteres 0x) y una única clave privada para todas las redes conectadas dentro de una misma cuenta.",
         ],
       },
       {
-        heading: "Подключение пользовательских сетей через RPC",
+        heading: "Conexión de redes personalizadas mediante RPC",
         paragraphs: [
-          "Для отправки запросов в блокчейн кошелек использует точки удаленного вызова процедур (RPC-узлы). По умолчанию MetaMask подключается к базовым инфраструктурным провайдерам, однако пользователь может вручную добавить любую тестовую или основную сеть.",
-          "Для ручной настройки достаточно указать четыре параметра: название сети, URL-адрес RPC-сервера, числовой идентификатор цепи (Chain ID) и символ нативного токена для отображения комиссий.",
+          "Para enviar solicitudes a la blockchain, la billetera utiliza puntos de llamada a procedimiento remoto (nodos RPC). Por defecto, MetaMask se conecta a proveedores de infraestructura básicos, aunque el usuario puede añadir manualmente cualquier red principal o de pruebas.",
+          "Para la configuración manual basta con indicar cuatro parámetros: el nombre de la red, la URL del servidor RPC, el identificador numérico de la cadena (Chain ID) y el símbolo del token nativo para mostrar las comisiones.",
         ],
       },
       {
-        heading: "Контроль подключенных веб-приложений",
+        heading: "Control de las aplicaciones web conectadas",
         paragraphs: [
-          "При взаимодействии с децентрализованными веб-приложениями браузер запрашивает разрешение на просмотр публичного адреса. В настройках MetaMask предусмотрен раздел подключенных сайтов, позволяющий в любой момент отозвать доступ к просмотру аккаунта для конкретных доменов.",
+          "Al interactuar con aplicaciones web descentralizadas, el navegador solicita permiso para visualizar la dirección pública. En los ajustes de MetaMask existe una sección de sitios conectados que permite revocar en cualquier momento el acceso de visualización de la cuenta para dominios concretos.",
         ],
       },
     ],
   },
+
   {
     id: "7",
-    slug: "kak-proverit-tranzakciyu-cherez-blokchejn-obozrevatel",
+    slug: "como-verificar-una-transaccion-en-un-explorador-de-bloques",
     title:
-      "Как проверить статус транзакции через блокчейн-обозреватель (Etherscan, Tronscan)",
+      "Cómo verificar el estado de una transacción mediante un explorador de bloques (Etherscan, Tronscan)",
     category: "basics",
     summary:
-      "Пошаговое руководство по чтению публичного реестра: что такое хеш транзакции (TxID), сколько подтверждений блоков требуется для финализации и как читать логи.",
-    publishedAt: "21 октября 2026",
+      "Guía paso a paso para leer el registro público: qué es el hash de transacción (TxID), cuántas confirmaciones de bloque se necesitan para la finalización y cómo interpretar los registros.",
+    publishedAt: "21 de octubre de 2026",
     readTimeMinutes: 5,
     author: {
-      name: "Алексей Морозов",
-      role: "Технический редактор, специалист по блокчейн-инфраструктуре",
+      name: "Alexéi Morózov",
+      role: "Editor técnico, especialista en infraestructura blockchain",
     },
     sections: [
       {
-        heading: "Что такое блокчейн-обозреватель",
+        heading: "Qué es un explorador de bloques",
         paragraphs: [
-          "Поскольку публичные блокчейны являются открытыми базами данных, любую операцию можно отследить без регистрации и паролей. Для этого используются специализированные веб-поисковики — блокчейн-обозреватели (Block Explorers). Для сети Bitcoin таким инструментом служит Mempool.space, для Ethereum — Etherscan, для TRON — Tronscan.",
+          "Dado que las blockchains públicas son bases de datos abiertas, cualquier operación puede rastrearse sin necesidad de registro ni contraseñas. Para ello se utilizan buscadores web especializados llamados exploradores de bloques (Block Explorers). Para la red Bitcoin esta herramienta es Mempool.space; para Ethereum, Etherscan; y para TRON, Tronscan.",
         ],
       },
       {
-        heading: "Поиск по хешу транзакции (TxID)",
+        heading: "Búsqueda por hash de transacción (TxID)",
         paragraphs: [
-          "После отправки перевода кошелек генерирует уникальный идентификатор операции — хеш транзакции (Transaction Hash или TxID), представляющий собой длинную строку из букв и цифр.",
-          "Вставив этот идентификатор в строку поиска обозревателя, можно увидеть точное время создания записи, адрес отправителя, адрес получателя, объем списанной сетевой комиссии и текущий статус операции (Pending — в ожидании, Success — подтверждена, Failed — отклонена сетью).",
+          "Tras enviar una transferencia, la billetera genera un identificador único de la operación: el hash de transacción (Transaction Hash o TxID), que consiste en una larga cadena de letras y números.",
+          "Al pegar este identificador en la barra de búsqueda del explorador, se puede consultar la hora exacta de creación del registro, la dirección del remitente, la dirección del destinatario, el importe de la comisión de red descontada y el estado actual de la operación (Pending — pendiente, Success — confirmada, Failed — rechazada por la red).",
         ],
       },
       {
-        heading: "Количество подтверждений блока (Confirmations)",
+        heading: "Número de confirmaciones de bloque (Confirmations)",
         paragraphs: [
-          "Когда транзакция впервые попадает в блок, она получает 1 подтверждение. Каждый последующий блок, добавленный в цепь поверх этого блока, увеличивает счетчик подтверждений на единицу. Чем больше подтверждений набрала операция, тем выше криптографическая гарантия ее необратимости.",
+          "Cuando una transacción se incluye por primera vez en un bloque, recibe 1 confirmación. Cada bloque posterior que se añade a la cadena encima de ese bloque incrementa el contador de confirmaciones en una unidad. Cuantas más confirmaciones acumula una operación, mayor es la garantía criptográfica de su irreversibilidad.",
         ],
       },
     ],
   },
   {
     id: "8",
-    slug: "otzyv-razreshenij-smart-kontraktov-token-approvals",
+    slug: "revocar-permisos-de-contratos-inteligentes-token-approvals",
     title:
-      "Что такое Token Approvals и зачем регулярно проверять разрешения смарт-контрактов",
+      "Qué son los Token Approvals y por qué revisar periódicamente los permisos de contratos inteligentes",
     category: "security",
     summary:
-      "Разбираем механику выдачи прав на управление токенами в сетях EVM: чем обычная подпись сообщения отличается от разрешения на списание и как закрыть старые лимиты.",
-    publishedAt: "17 октября 2026",
+      "Analizamos la mecánica de concesión de permisos para gestionar tokens en redes EVM: en qué se diferencia la firma de un mensaje normal de una autorización de gasto y cómo cerrar límites antiguos.",
+    publishedAt: "17 de octubre de 2026",
     readTimeMinutes: 6,
     author: {
-      name: "Дмитрий Соколов",
-      role: "Эксперт по информационной безопасности",
+      name: "Dmitri Sokolov",
+      role: "Experto en seguridad de la información",
     },
     sections: [
       {
-        heading: "Как работают разрешения (Approve) в стандарте ERC-20",
+        heading: "Cómo funcionan los permisos (Approve) en el estándar ERC-20",
         paragraphs: [
-          "Чтобы децентрализованное приложение могло взаимодействовать с токенами стандарта ERC-20 или BEP-20 на адресе пользователя, стандарт предусматривает функцию Approve (одобрение). Подписывая такую транзакцию, владелец адреса разрешает конкретному смарт-контракту распоряжаться определенным количеством токенов.",
-          "Для экономии на сетевых комиссиях многие интерфейсы по умолчанию запрашивают неограниченный лимит (Unlimited Approval), чтобы пользователю не приходилось подтверждать разрешение перед каждой последующей операцией.",
+          "Para que una aplicación descentralizada pueda interactuar con tokens del estándar ERC-20 o BEP-20 en la dirección de un usuario, el estándar contempla la función Approve (aprobación). Al firmar dicha transacción, el propietario de la dirección autoriza a un contrato inteligente específico a disponer de una cantidad determinada de tokens.",
+          "Para ahorrar en comisiones de red, muchas interfaces solicitan por defecto un límite ilimitado (Unlimited Approval), evitando así que el usuario tenga que confirmar el permiso antes de cada operación posterior.",
         ],
       },
       {
-        heading: "Потенциальные риски бессрочных разрешений",
+        heading: "Riesgos potenciales de los permisos indefinidos",
         paragraphs: [
-          "Выданное разрешение остается активным в блокчейне бессрочно, даже если пользователь закрыл вкладку браузера и перестал пользоваться сервисом. Если спустя несколько месяцев в коде стороннего смарт-контракта будет обнаружена уязвимость, активное разрешение теоретически может быть использовано для списания одобренных токенов.",
+          "El permiso concedido permanece activo en la blockchain de forma indefinida, incluso si el usuario cierra la pestaña del navegador y deja de utilizar el servicio. Si meses después se descubre una vulnerabilidad en el código del contrato inteligente externo, ese permiso activo podría aprovecharse teóricamente para retirar los tokens aprobados.",
         ],
       },
       {
-        heading: "Аудит и отзыв активных доступов",
+        heading: "Auditoría y revocación de accesos activos",
         paragraphs: [
-          "Правила цифровой гигиены рекомендуют периодически проверять список выданных разрешений через встроенные инструменты блокчейн-обозревателей (например, раздел Token Approval Checker в Etherscan) и отзывать неиспользуемые доступы путем установки нулевого лимита.",
+          "Las buenas prácticas de higiene digital recomiendan revisar periódicamente la lista de permisos otorgados mediante las herramientas integradas en los exploradores de bloques (por ejemplo, la sección Token Approval Checker en Etherscan) y revocar los accesos que ya no se utilicen estableciendo un límite cero.",
         ],
       },
     ],
   },
   {
     id: "9",
-    slug: "obzor-trust-wallet-arhitektura-mobilnogo-koshelka",
+    slug: "analisis-arquitectura-trust-wallet-billetera-movil",
     title:
-      "Обзор архитектуры Trust Wallet: особенности мультичейн-хранения на смартфоне",
+      "Análisis de la arquitectura de Trust Wallet: particularidades del almacenamiento multicadena en el smartphone",
     category: "wallets",
     summary:
-      "Изучаем техническую организацию мобильного некастодиального кошелька: как из одной мнемонической фразы формируются адреса для Bitcoin, Solana, TRON и EVM-сетей.",
-    publishedAt: "14 октября 2026",
+      "Estudiamos la organización técnica de la billetera móvil sin custodia: cómo a partir de una sola frase mnemotécnica se generan direcciones para Bitcoin, Solana, TRON y redes EVM.",
+    publishedAt: "14 de octubre de 2026",
     readTimeMinutes: 5,
     author: {
-      name: "Алексей Морозов",
-      role: "Технический редактор, специалист по блокчейн-инфраструктуре",
+      name: "Alexéi Morózov",
+      role: "Editor técnico, especialista en infraestructura blockchain",
     },
     sections: [
       {
-        heading: "Принцип иерархической детерминированности (HD-кошелек)",
+        heading: "Principio de determinismo jerárquico (billetera HD)",
         paragraphs: [
-          "Trust Wallet относится к классу иерархически детерминированных мультичейн-кошельков (стандарт BIP-44). Это означает, что пользователю не нужно записывать отдельный ключ для каждой криптовалюты: приложение использует единую фразу из 12 слов как корневой источник энтропии.",
-          "Применяя разные пути деривации (derivation paths), программа математически вычисляет совместимые пары ключей для десятков независимых протоколов, включая Bitcoin, Ethereum, Solana, TON и TRON.",
+          "Trust Wallet pertenece a la categoría de billeteras multicadena jerárquicas deterministas (estándar BIP-44). Esto significa que el usuario no necesita anotar una clave independiente para cada criptomoneda: la aplicación utiliza una única frase de 12 palabras como fuente raíz de entropía.",
+          "Aplicando distintas rutas de derivación (derivation paths), el programa calcula matemáticamente pares de claves compatibles para decenas de protocolos independientes, incluidos Bitcoin, Ethereum, Solana, TON y TRON.",
         ],
       },
       {
-        heading: "Локальное шифрование и защита приложения",
+        heading: "Cifrado local y protección de la aplicación",
         paragraphs: [
-          "Секретная фраза и приватные ключи сохраняются в защищенном локальном хранилище операционной системы смартфона (Keychain в iOS или Keystore в Android) в зашифрованном виде. Для предотвращения несанкционированного доступа при разблокированном телефоне в приложении предусмотрена защита по ПИН-коду и биометрическим датчикам устройства.",
+          "La frase secreta y las claves privadas se guardan cifradas en el almacenamiento local seguro del sistema operativo del smartphone (Keychain en iOS o Keystore en Android). Para evitar accesos no autorizados cuando el teléfono está desbloqueado, la aplicación incorpora protección mediante código PIN y sensores biométricos del dispositivo.",
         ],
       },
     ],
   },
+
   {
     id: "10",
-    slug: "zashchita-ot-fishinga-i-podmeny-adresov-v-bufere-obmena",
+    slug: "proteccion-contra-phishing-y-suplantacion-de-direcciones",
     title:
-      "Защита от фишинга и подмены адресов: базовые правила цифровой гигиены",
+      "Protección contra el phishing y la suplantación de direcciones: reglas básicas de higiene digital",
     category: "security",
     summary:
-      "Разбор распространенных векторов атак на пользователей криптокошельков: клипперы буфера обмена, поддельные домены и имитация транзакций с нулевой суммой.",
-    publishedAt: "10 октября 2026",
+      "Análisis de los vectores de ataque más habituales contra usuarios de billeteras: clippers del portapapeles, dominios falsos y envenenamiento de direcciones mediante transacciones de importe cero.",
+    publishedAt: "10 de octubre de 2026",
     readTimeMinutes: 6,
     author: {
-      name: "Дмитрий Соколов",
-      role: "Эксперт по информационной безопасности",
+      name: "Dmitri Sokolov",
+      role: "Experto en seguridad de la información",
     },
     sections: [
       {
-        heading: "Вредоносные программы-клипперы",
+        heading: "Software malicioso tipo clipper",
         paragraphs: [
-          "Одним из классических методов перехвата транзакций являются программы-клипперы, отслеживающие содержимое буфера обмена операционной системы. Когда пользователь копирует адрес получателя, программа мгновенно распознает его формат и незаметно заменяет на схожий адрес злоумышленника.",
-          "Единственный надежный способ защиты от подобной подмены — визуально сверять не только первые и последние 4 символа вставленного адреса, но и несколько символов в середине строки перед нажатием кнопки отправки.",
+          "Uno de los métodos clásicos de interceptación de transacciones son los programas maliciosos llamados clippers, que monitorizan el contenido del portapapeles del sistema operativo. Cuando el usuario copia la dirección del destinatario, el programa reconoce su formato al instante y la sustituye de forma imperceptible por una dirección similar del atacante.",
+          "La única forma fiable de protegerse frente a este tipo de suplantación consiste en verificar visualmente no solo los 4 primeros y los 4 últimos caracteres de la dirección pegada, sino también varios caracteres intermedios antes de pulsar el botón de envío.",
         ],
       },
       {
-        heading: "Атака с подменой истории транзакций (Address Poisoning)",
+        heading: "Ataque de envenenamiento del historial (Address Poisoning)",
         paragraphs: [
-          "Злоумышленники анализируют публичные транзакции в блокчейне и с помощью генераторов адресов подбирают кошелек, у которого первые и последние символы совпадают с адресом из истории переводов жертвы. Затем на кошелек жертвы отправляется транзакция с нулевой суммой с этого поддельного адреса.",
-          "Расчет строится на том, что при следующем переводе пользователь скопирует адрес не из проверенной адресной книги, а из списка последних операций в обозревателе. Использование встроенной адресной книги кошелька полностью нейтрализует этот вектор атаки.",
+          "Los atacantes analizan las transacciones públicas en la blockchain y, mediante generadores de direcciones, crean una billetera cuyos primeros y últimos caracteres coinciden con una dirección del historial de transferencias de la víctima. A continuación, envían una transacción de importe cero desde esa dirección falsa hacia la billetera de la víctima.",
+          "La maniobra busca que, en la siguiente transferencia, el usuario copie la dirección desde la lista de operaciones recientes del explorador en lugar de hacerlo desde una agenda de contactos verificada. Utilizar la libreta de direcciones integrada en la billetera neutraliza por completo este vector de ataque.",
         ],
       },
     ],

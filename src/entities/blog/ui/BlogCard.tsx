@@ -1,13 +1,15 @@
-import { CardCasinoType } from "../../../shared/mock/CardCasino";
-import styles from "./CasinoCard.module.css";
+import { decodeText } from "../../../shared/function/decryptText";
+import { CardBlogType } from "../../../shared/mock/CardBlog";
+import { Gag } from "../../../widgets/cc/cc";
+import styles from "./BlogCard.module.css";
 
-interface CasinoCardProps {
-  casino: CardCasinoType;
+interface BlogCardProps {
+  blog: CardBlogType;
   i: number;
 }
 
-export default function CasinoCard({ casino, i }: CasinoCardProps) {
-  const { link, icon, name, bonus, raiting, type } = casino;
+export default function BlogCard({ blog, i }: BlogCardProps) {
+  const { link, icon, name, gift, raiting, type } = blog;
 
   const rankBackgrounds: Record<string, string> = {
     gold: styles.rankGold,
@@ -18,7 +20,7 @@ export default function CasinoCard({ casino, i }: CasinoCardProps) {
   const backgroundClass = rankBackgrounds[type] || "";
 
   return (
-    <div className={`${styles.cardCasion} ${backgroundClass}`}>
+    <div className={`${styles.cardBlog} ${backgroundClass}`}>
       <div className={styles.content}>
         <div className={styles.info}>
           <div className={`${styles.rang} ${backgroundClass}`}>#{i}</div>
@@ -35,16 +37,16 @@ export default function CasinoCard({ casino, i }: CasinoCardProps) {
               </div>
             </div>
             <span className={`${styles.welcom} ${backgroundClass}`}>
-              Welcome bonus:
+              {decodeText("372QkZDfm5rfnZaakYmakZabnsU=")}
             </span>
-            {bonus.map((el) => (
-              <span className={`${styles.bonus}`} key={el}>
+            {gift.map((el) => (
+              <span className={`${styles.gift}`} key={el}>
                 {el}
               </span>
             ))}
           </div>
           <a className={styles.link} href={link}>
-            Play Now
+            {decodeText("tYqYno3fnpeQjZ4=")}
           </a>
         </div>
       </div>

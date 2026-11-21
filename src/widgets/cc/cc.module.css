@@ -1,0 +1,17 @@
+.cc {
+  margin-bottom: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.input {
+  width: 30%;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.span {
+  font-size: 20px;
+  color: white;
+}

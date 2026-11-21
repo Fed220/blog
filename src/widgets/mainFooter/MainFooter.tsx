@@ -9,37 +9,37 @@ export const MainFooter: React.FC = () => {
         <div className={styles.topRow}>
           <div className={styles.links}>
             <Link to="/" className={styles.link}>
-              Главная
+              Hogar
             </Link>
             <Link to="/about" className={styles.link}>
-              О проекте
+              Acerca del proyecto
             </Link>
             <Link to="/disclaimer" className={styles.link}>
-              Отказ от ответственности
+              Descargo de responsabilidad
             </Link>
             <Link to="/privacy" className={styles.link}>
-              Политика конфиденциальности
+              política de privacidad
             </Link>
             <Link to="/contacts" className={styles.link}>
-              Контакты
+              Contactos
             </Link>
           </div>
         </div>
 
         <div className={styles.disclaimerBox}>
           <span className={styles.disclaimerTitle}>
-            Важное уведомление (Disclaimer):{" "}
+            Aviso importante (Disclaimer):{" "}
           </span>
-          Все материалы, размещенные на данном ресурсе, носят исключительно
-          справочный, образовательный и ознакомительный характер. Информация не
-          является финансовой, инвестиционной или юридической рекомендацией.
-          Администрация сайта не осуществляет деятельность по обмену, продаже,
-          покупке или хранению цифровых активов.
+          Todo el material publicado en este sitio web tiene fines meramente
+          informativos, educativos y de referencia. La información no constituye
+          asesoramiento financiero, de inversión ni legal. La administración del
+          sitio web no participa en el intercambio, venta, compra ni
+          almacenamiento de activos digitales.
         </div>
 
         <div className={styles.copyright}>
-          © {new Date().getFullYear()} CryptoBase Docs.
-          Информационно-образовательный справочник.
+          © {new Date().getFullYear()} SolidBase Docs. Libro de referencia
+          informativo y educativo.
         </div>
       </div>
     </footer>
